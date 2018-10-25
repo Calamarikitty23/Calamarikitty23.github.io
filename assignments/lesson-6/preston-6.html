@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, intital scale=1, maximum-scale=1">
+        <title>Town Weather Page</title>
+        <meta name="author" content="Skye Rallison">
+        <meta name="description" content="This is Skye's Town Weather Page">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small-6.css">
+        <link rel="stylesheet" href="styles/large-6.css">
+        <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+    </head>
+
+<body>
+    <header>
+        <img src="images/cowforecastlogo.png" alt="icon">
+       <div class="forecast">
+        <h1>COWforecast.com</h1>
+        <h2>"If you want to know the weather, we provide you with a forecast."</h2>
+        </div>
+        <div class="weather">
+            <h3>Current Conditions</h3>
+            <img class="sun" src="images/sunnyday.png" alt="icon">
+        </div>
+    </header>
+    <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    <nav>
+        <ul class= "navigation">
+            <li>Forecast</li>
+            <li>Weather Chart</li>
+            <li>Weather Chart Percentage</li>
+            <li>Weather Links</li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <section>
+            <figure>
+                <img class="hero"src="images/franklinoriginal.jpeg" alt="Here is today's hero."
+                sizes="100vw" srcset="images/franklinoriginal400small.jpeg 400w,
+                                      images/franklinoriginal1200large.jpeg 1200w" >
+            </figure>
+            <div>
+                <h4>Weather Summary</h4>
+                <p>This is the weather summary information.<br> 
+                    It's cloudy with some wind. <br>
+                    It might rain this weekend. <br>
+                    Make sure to wear a jacket to protect from autumn winds.<br>
+                    In case it rains, be prepared with an umbrella.<br>
+                </p>
+            </div>
+        </section>
+
+        <section class="forecast">
+                <h3>Five Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Day</th>
+                        <th>Mon</th>
+                        <th>Tues</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        </tr>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>Forecast</th>
+                          <td>89&deg;F</td>
+                          <td>87&deg;F</td>
+                          <td>78&deg;F</td>
+                          <td>75&deg;F</td>
+                          <td>72&deg;F</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </section>
+
+        <article>
+        <h3>Article</h3>
+        <h4>by author</h4>
+        
+            <img class="article" src="images/sunset.jpg" alt="Beautiful Sunset" >
+           
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."
+            </p>
+        </article>
+
+    </main>
+    <footer>
+        <section>
+            <h4>Contact Information</h4>
+            <p>801-432-6881<br>
+                COWforecast@gmail.com<br>
+            </p>
+            <img class="map" src="images/idahograssland.jpg" alt="map location">
+            <aside>
+                <p id="currentdate">
+
+                    
+                </p>
+            </aside>
+        </section>
+    </footer>
+    <script src= "scripts/currentdate.js"></script>
+    <script src= "scripts/hamburger.js"></script>
+</body>
+
+</html>
