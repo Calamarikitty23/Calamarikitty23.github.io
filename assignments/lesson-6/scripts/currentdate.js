@@ -12,3 +12,4 @@ var months = ["January", "February", "March", "April", "May", "June", "July, Aug
 var w = weekday[d.getDay()];
 document.getElementById("currentdate").innerHTML= w + ","+ " " + d.getDate() + " " + months[d.getMonth()] + " "+ d.getFullYear();
 
+/*Monday, 6 April 2020*/
