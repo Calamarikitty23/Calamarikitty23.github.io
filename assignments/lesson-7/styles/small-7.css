@@ -20,8 +20,8 @@ footer {
 header {
     background-color: #007db9;
     max-width: 100%;
-    font-size: 40px;
-    color: #f4ec4e;
+    font-size: 18px;
+    color: #ffcc07;
 }
 
 header {
@@ -235,8 +235,3 @@ aside.footer-bar p{
 	grid-template-columns: repeat(1,100%);
 } 
 
-/*.grid div {
-	border:    ;
-	border-radius:   ;
-	background-color:   ;
-}*/
