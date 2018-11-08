@@ -2,36 +2,61 @@
 <html lang="en-us">
 <head>
 <style>
+
+body{
+    display:block;
+}
+
 table {
     font-family: Ubuntu, sans-serif;
     border-collapse: collapse;
-    width:100%;
+    widows: 60%;
 }
 
-td, th {
-    border: 1px solid #000;
-    text-align: left;
-    padding: 8px;
+thead td{
+    background-color:#628ca6;
+    color:#ffffff;
+    text-align:center;
+    font-weight: bold;
+    padding:8px;
 }
 
 td {
-  background-color:#e7f0ed, #e7ffed;
+    border: 1px solid #bbbbbb;
+    text-align: center;
+    padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color:#fff;
+    background-color:#e7ffed;
 }
 
+tr:nth-child(odd) {
+    background-color:#e7f0ed;
+}
+
+tfoot td, th {
+    background-color:#7fb9c2;
+    color:#000;
+}
+tfoot td{
+    font-size:12px;
+    text-align:center;
+}
+ td.sale{
+    background-color:#628ca6;
+    color:#ffffff;
+    text-align:center;
+
+ }
 </style>   
 </head>
 <body>
-
-    <h2></h2>
-    
     <table>
                  <thead>
                         <tr>
-                        <th colspan="3">ACME WildWest</th>
+                        <th colspan="3" style="padding-bottom: 8px;
+                        padding-top: 8px;">ACME WildWest</th>
                       </tr>
                       <tr>
                         <td>Period</td>
@@ -57,10 +82,10 @@ tr:nth-child(even) {
                         <tr>
                             <td>November</td>
                             <td>$8,610</td>
-                            <td>$7,500</td>
+                            <td class="sale">$7,500</td>
                         </tr>
                         <tr>
-                            <td>Black Friday</td>
+                            <td style="font-style:italic">Black Friday</td>
                             <td colspan="2">$3,200</td>
                         </tr>
                         <tr>
@@ -78,9 +103,3 @@ tr:nth-child(even) {
 
 </body>
 </html>
-<!--The font-family is Ubuntu, sans-serif.
-Color scheme includes #e7f0ed, #e7ffed (data rows) and #628ca6, #7fb9c2 with white and black.
-You may find the first-child and nth:child() pseudo classes helpful in CSS.
-Get as close as possible to the displayed design and structure for full credit.
-You must use the thead, tbody and tfoot tags in your table structure.
-You may use a maximum of one (1) class or id selector.-->
