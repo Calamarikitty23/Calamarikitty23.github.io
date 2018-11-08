@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, intital scale=1, maximum-scale=1">
+        <title>COWforecast.com Stormcenter</title>
+        <meta name="author" content="Skye Rallison">
+        <meta name="description" content="This is Skye's Stormcenter">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small-8.css">
+        <link rel="stylesheet" href="styles/medium-8.css">
+        <link rel="stylesheet" href="styles/large-8.css">
+        <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/cowforecastlogo.png" alt="icon" >
+       <div class="title">
+        <h1>COWforecast.com Stormcenter</h1>
+            <h2>Stormcenter Form Page</h2>
+    </header>
+    <main>
+        <h1>Stormcenter Form Page</h1>
+        <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Stormcenter Contact Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="flame" required></label>
+            <label>Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+            <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label>Website<input type="url" name="url" placeholder="http://"></label>
+            <label>Zipcode<input type="number" name="number" required></label>
+        </fieldset>
+       
+        <fieldset>
+            <legend>Storm Information</legend>
+            <label>Date <input type="date" name="stormdate" value=""></label>
+            <label>Storm Type <input type="text" list="storms">
+            <datalist>
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+            </datalist>
+            </label>
+            <label>Severity<input type="range" id="rating" name="stormseverity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue"></span></label>
+            <label>Region</label>
+                <select name="stormregion">
+                    <option value="" disabled selected>Select Region</option>
+                    <option value="">Franklin</option>
+                    <option value="">Greenville</option>
+                    <option value="">Springfield</option>
+                </select>
+            <label>Danger Level</label>
+                <label><input type="radio" value="yes">Yes</label>
+                <label><input type="radio" value="maybe">Maybe</label>
+                <label><input type="radio" value="no">No</label>
+            </label>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Additional Information</legend>
+            <textarea rows="12" cols="7">
+
+            </textarea>
+        </fieldset>
+
+    <input type="submit" value="Send Weather Report" class>
+
+    </main>
+       <!-- storm date using input of type date
+        storm type using input with a list attribute using a datalist of suggestions including "Flash Flood", "Hail", "Hurricane", "Thunderstorm", and "Tornado".
+        storm severity using type range (1 to 10) with a corresponding label that indicates the current range value from 1 to 10. 
+        storm region using select with dropdown options of "Franklin", Greenville, and "Springfield". Add a first option with the text "Select Region ..." that is shown by default but not selectable (disabled). The rest of the options should have relevant value attributes.
+        user in-danger level using input of type radio with options and values of of yes, maybe, and no.
+        additional information or comments using a textarea
+        form submission button using input of type submit
+        Each field element should have an appropriate name attribute-->
+
+        </form>
+
+    
+    </fieldset>
+    
+
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        &copy; 2018 &bull; Paul Cheney &bull; 123-555-6789
+    </footer>
+<script src="scripts/severity.js"></script>
+    </body>
+</html>
+
+<!--Each field element should have an appropriate name attribute
+Ensure that the design meets standards such as eye tracking in a straight line and proper keyboard progression for accessibility. See "Designing more Efficient Forms" (Links to an external site.)Links to an external site.
+ (Links to an external site.)Links to an external site.Your form design SHOULD NOT be exactly like the tutorial given on building a form. Incorporate your own design ideas and patterns.
+Create a new page labeled thanks.html that expresses gratitude for filling out the form. This page should load when the user has successfully submitted the form. -->
