@@ -1,12 +1,10 @@
 @media only screen and (min-width:1024px) {
     
-    /* 
-form label.sbs {
-    padding: .4rem 0;
-}
-*/
     
-    
+    form label.sbs {
+    padding: .3rem 0;
+    }
+
     body {
         font-size: 16px;
         line-height: 32px;

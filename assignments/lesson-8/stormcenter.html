@@ -27,7 +27,7 @@
         <fieldset>
             <legend>Stormcenter Contact Information</legend>
             <label>First Name*<input type="text" name="fname" required></label>
-            <label>Last Name*<input type="text" name="flame" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
             <label>Phone<input type="tel" name="phone" placeholder="1235551234"></label>
             <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
             <label>Website<input type="url" name="url" placeholder="http://"></label>
@@ -37,8 +37,8 @@
         <fieldset>
             <legend>Storm Information</legend>
             <label>Date <input type="date" name="stormdate" value=""></label>
-            <label>Storm Type <input type="text" list="storms">
-            <datalist>
+            <label>Storm Type <input type="text" list="">
+            <datalist id="storms">
                 <option value="Flash Flood"></option>
                 <option value="Hail"></option>
                 <option value="Hurricane"></option>
@@ -62,12 +62,12 @@
     
         <fieldset>
             <legend>Additional Information</legend>
-            <textarea rows="12" cols="7">
+            <textarea rows="13" cols="50">
 
             </textarea>
         </fieldset>
 
-    <input type="submit" value="Send Weather Report" class>
+    <input type="submit" class="submit" value="Send Weather Report" class>
 
     </main>
        <!-- storm date using input of type date
@@ -89,7 +89,7 @@
     
 <!-- FOOTER HERE -->   
     <footer>
-        &copy; 2018 &bull; Paul Cheney &bull; 123-555-6789
+        &copy; 2018 | Skye Rallison | 801-432-6881
     </footer>
 <script src="scripts/severity.js"></script>
     </body>
