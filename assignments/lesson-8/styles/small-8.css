@@ -39,8 +39,14 @@ div.title {
     display: inline-block;
 }
 
+header h1{
+    font-size:40px;
+    color: #ffcc07;
+    margin-bottom: 0;
+}
+
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     color: #ffcc07;
     margin-bottom: 0;
 }
@@ -100,13 +106,6 @@ form input.submit {
     margin-top:20px;
 }
 
-form label.top input:required {
-    border-left:;
-}
-
-form label.top input:required:valid{
-    border-left:
-}
 
 /*NAVIGATION*/
 button {

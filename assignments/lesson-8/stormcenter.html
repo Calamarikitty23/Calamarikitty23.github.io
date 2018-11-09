@@ -20,6 +20,7 @@
        <div class="title">
         <h1>COWforecast.com Stormcenter</h1>
             <h2>Stormcenter Form Page</h2>
+        </div>
     </header>
     <main>
         <h1>Stormcenter Form Page</h1>
@@ -37,7 +38,7 @@
         <fieldset>
             <legend>Storm Information</legend>
             <label>Date <input type="date" name="stormdate" value=""></label>
-            <label>Storm Type <input type="text" list="">
+            <label>Storm Type <input list="storms" name="storm">
             <datalist id="storms">
                 <option value="Flash Flood"></option>
                 <option value="Hail"></option>
@@ -53,11 +54,10 @@
                     <option value="">Greenville</option>
                     <option value="">Springfield</option>
                 </select>
-            <label>Danger Level</label>
-                <label><input type="radio" value="yes">Yes</label>
-                <label><input type="radio" value="maybe">Maybe</label>
-                <label><input type="radio" value="no">No</label>
-            </label>
+            <label style="display:block">Danger Level</label>
+                <input type="radio" name="answer" value="yes"><label>Yes</label><br> 
+                <input type="radio" name="answer" value="maybe"><label>Maybe</label><br> 
+                <input type="radio" name="answer" value="no"><label>No</label><br> 
         </fieldset>
     
         <fieldset>
@@ -67,24 +67,9 @@
             </textarea>
         </fieldset>
 
-    <input type="submit" class="submit" value="Send Weather Report" class>
-
-    </main>
-       <!-- storm date using input of type date
-        storm type using input with a list attribute using a datalist of suggestions including "Flash Flood", "Hail", "Hurricane", "Thunderstorm", and "Tornado".
-        storm severity using type range (1 to 10) with a corresponding label that indicates the current range value from 1 to 10. 
-        storm region using select with dropdown options of "Franklin", Greenville, and "Springfield". Add a first option with the text "Select Region ..." that is shown by default but not selectable (disabled). The rest of the options should have relevant value attributes.
-        user in-danger level using input of type radio with options and values of of yes, maybe, and no.
-        additional information or comments using a textarea
-        form submission button using input of type submit
-        Each field element should have an appropriate name attribute-->
+    <input type="submit" class="submit" value="Send Weather Report" >
 
         </form>
-
-    
-    </fieldset>
-    
-
     </main>
     
 <!-- FOOTER HERE -->   
@@ -99,3 +84,11 @@
 Ensure that the design meets standards such as eye tracking in a straight line and proper keyboard progression for accessibility. See "Designing more Efficient Forms" (Links to an external site.)Links to an external site.
  (Links to an external site.)Links to an external site.Your form design SHOULD NOT be exactly like the tutorial given on building a form. Incorporate your own design ideas and patterns.
 Create a new page labeled thanks.html that expresses gratitude for filling out the form. This page should load when the user has successfully submitted the form. -->
+     <!-- storm date using input of type date
+        storm type using input with a list attribute using a datalist of suggestions including "Flash Flood", "Hail", "Hurricane", "Thunderstorm", and "Tornado".
+        storm severity using type range (1 to 10) with a corresponding label that indicates the current range value from 1 to 10. 
+        storm region using select with dropdown options of "Franklin", Greenville, and "Springfield". Add a first option with the text "Select Region ..." that is shown by default but not selectable (disabled). The rest of the options should have relevant value attributes.
+        user in-danger level using input of type radio with options and values of of yes, maybe, and no.
+        additional information or comments using a textarea
+        form submission button using input of type submit
+        Each field element should have an appropriate name attribute-->
