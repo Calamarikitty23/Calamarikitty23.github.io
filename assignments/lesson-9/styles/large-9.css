@@ -1,9 +1,5 @@
 @media only screen and (min-width:1024px) {
     
-    
-    form label.sbs {
-    padding: .3rem 0;
-    }
 
     body {
         font-size: 16px;
@@ -120,6 +116,7 @@
        color:#f4ec4e;
        text-align:center;
       }
+
    main h2{
        font-size: 80px;
        text-align: center;
@@ -156,8 +153,7 @@
        margin: 30px 20px;
        float: right;
        padding-left: 17px;
-       
-   }
+    }
    
    p {
        font-family:"Verdana";
@@ -219,7 +215,6 @@ figcaption{
 
 figure img{
     border:2px solid #f4ec4e;
-
 }
 
 }
