@@ -7,6 +7,7 @@ var section = document.querySelector('section');
     request.onload = function() {
     var idaho= request.response;
     show(idaho);
+    
 }
 
   function show(jsonObj) {
@@ -36,6 +37,7 @@ var section = document.querySelector('section');
     mySection.appendChild(myPara2);
     mySection.appendChild(myPara3);
     mySection.appendChild(myPara4);
+    section.appendchild(mySection);
   }
 }
 
