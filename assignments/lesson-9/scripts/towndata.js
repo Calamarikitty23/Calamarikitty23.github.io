@@ -39,9 +39,9 @@
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
     myArticle.appendChild(myImg);
-    /*if (i === 1) myImg.src="images/";
-    if (i === 4) myImg.src="images/";
-    if (i === 5) myImg.src="images/";*/
+    if (i === 1) myImg.src="images/cloud_mountain.jpg";
+    if (i === 4) myImg.src="images/sunset.jpg";
+    if (i === 5) myImg.src="images/cloudy-day.jpg";
     article.appendChild(myArticle);
   }
 }
