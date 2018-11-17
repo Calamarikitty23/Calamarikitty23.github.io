@@ -1,4 +1,4 @@
-var section = document.querySelector('section');
+    var article = document.querySelector('article');
     var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
@@ -19,12 +19,13 @@ var section = document.querySelector('section');
      if ( i === 3) {continue;}
      if ( i === 6) {continue;}
 
-    var mySection = document.createElement('section');
+    var myArticle = document.createElement('div');
     var myH2 = document.createElement('h2');
     var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
     var myPara4 = document.createElement('p');
+    var myImg = document.createElement('img');
 
     myH2.textContent = data[i].name;
     myPara1.textContent = data[i].motto;
@@ -32,12 +33,16 @@ var section = document.querySelector('section');
     myPara3.textContent = 'Population:'+ data[i].currentPopulation;
     myPara4.textContent = 'Average Rain Fall:' + data[i].averageRainfall;
 
-    mySection.appendChild(myH2);
-    mySection.appendChild(myPara1);
-    mySection.appendChild(myPara2);
-    mySection.appendChild(myPara3);
-    mySection.appendChild(myPara4);
-    section.appendchild(mySection);
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myPara1);
+    myArticle.appendChild(myPara2);
+    myArticle.appendChild(myPara3);
+    myArticle.appendChild(myPara4);
+    myArticle.appendChild(myImg);
+    /*if (i === 1) myImg.src="images/";
+    if (i === 4) myImg.src="images/";
+    if (i === 5) myImg.src="images/";*/
+    article.appendChild(myArticle);
   }
 }
 

@@ -279,11 +279,4 @@ img.map {
 aside.footer-bar {
     background-color: #f4ec4e;
 }
-aside.footer-bar p{
-    color: black;
-}
 
-.grid{
-	display:grid;
-	grid-template-columns: repeat(1,100%);
-} 
