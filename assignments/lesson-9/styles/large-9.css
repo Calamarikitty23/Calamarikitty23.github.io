@@ -138,8 +138,10 @@
    }
    
    main article h3{
-       font-size:60px;
+       font-size:40px;
        margin-left:10px;
+       color: #007db9;
+       border:2px solid #007db9;
    }
    
    main article h4{
