@@ -280,3 +280,10 @@ aside.footer-bar {
     background-color: #f4ec4e;
 }
 
+article.city{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+article.city img{
+    max-width:100%;
+}

@@ -216,7 +216,8 @@ figcaption{
 figure img{
     border:2px solid #f4ec4e;
 }
-section.city{
-    grid-template-columns:repeat(3, 32%);
-    }
+article.city{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 }
