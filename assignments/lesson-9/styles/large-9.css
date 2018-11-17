@@ -131,6 +131,7 @@
    main div{
        margin:6px 6px;
        padding:10px;
+       border:2px solid #007db9;
    }
    
    main div h4{
@@ -141,7 +142,6 @@
        font-size:40px;
        margin-left:10px;
        color: #007db9;
-       border:2px solid #007db9;
    }
    
    main article h4{
@@ -152,9 +152,9 @@
    
    article img{
        max-width:50%;
-       margin: 30px 20px;
-       float: right;
-       padding-left: 17px;
+       margin: 30px 0px;
+       float: left;
+       padding-left: 1px;
     }
    
    p {
