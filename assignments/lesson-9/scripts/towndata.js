@@ -20,7 +20,7 @@
      if ( i === 6) {continue;}
 
     var myArticle = document.createElement('div');
-    var myH3 = document.createElement('h3');
+    var myH2 = document.createElement('h3');
     var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
