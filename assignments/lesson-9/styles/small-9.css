@@ -221,18 +221,16 @@ main article h3 {
     padding: 15px 0 0;
     font-size: 30px;
     margin: 0 0 0 15px;
+    color: #007db9;
 }
 main article h4 {
     font-size: 20px;
     margin: 0 0 5px 15px;
 }
-img.sunset {
-    display: inline-block;
-    max-width: 100%;
-}
+
 article p {
     color: black;
-    font-size: 18px;
+    font-size: 28px;
     padding: 10px;
 }
 p {
@@ -256,7 +254,7 @@ footer p {
 }
 
 footer aside {
-    color: #ffcc07;
+    color: #007db9;
     margin: 0px;
     padding: 20px;
     text-align: center;
