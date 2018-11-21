@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-request.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a996fa0bda7d363240d97a43b64c13cc');
+request.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a996fa0bda7d363240d97a43b64c13cc&units=imperial');
 request.send();
 request.onload = function() {
 var preston = JSON.parse(request.responseText);
@@ -12,7 +12,20 @@ document.getElementById('speedy').innerHTML=preston.wind.speed;
 document.getElementById('windy').innerHTML=preston.wind.deg;
 
 }
+var request = new XMLHttpRequest();
+request.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a996fa0bda7d363240d97a43b64c13cc&units=imperial');
+request.send();
+request.onload = function() {
+var preston = JSON.parse(request.responseText);
+console.log(preston);
 
+document.getElementById('monday').innerHTML=preston.list[1].main.temp;
+document.getElementById('tuesday').innerHTML=preston.list[2].main.temp;
+document.getElementById('wednesday').innerHTML=preston.list[3].main.temp;
+document.getElementById('thursday').innerHTML=preston.list[4].main.temp;
+document.getElementById('friday').innerHTML=preston.list[5].main.temp;
+
+}
 /*{"coord":
 {"lon":145.77,"lat":-16.92},
 "weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],

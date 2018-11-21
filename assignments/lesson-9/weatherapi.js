@@ -21,7 +21,7 @@ weatherRequest.onload =  function () {
     document.getElementById("weathersummary")
     .innerHTML =;
     let imagesrc =
-    "" + [0] +;
+    "" + [0] + ;
     document.getElementById('').innerHTML = imagesrc;
 }
 /*‹  0¡ôX  city.list.json ¬½Ko$Y– ¸Ÿ_áèZ@Óç¾-³# ¯Ìx±‚Ì eÎê’´ [ÐiÆ2wc C ÐÕÀ` Ec¶jmºõ ¦s
