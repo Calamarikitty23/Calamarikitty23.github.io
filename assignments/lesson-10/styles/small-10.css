@@ -239,6 +239,10 @@ p {
     color: white;
 }
 
+article img{
+    width:100%;
+}
+
 /*FOOTER*/
 footer section {
     text-align: center;
