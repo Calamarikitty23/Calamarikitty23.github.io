@@ -1,49 +1,16 @@
-var article = document.querySelector('article');
-var requestURL = 'http://openweathermap.org/img/w/10d.png';
 var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
+request.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a996fa0bda7d363240d97a43b64c13cc');
 request.send();
 request.onload = function() {
-var idaho= request.response;
-show(idaho);
+var preston = JSON.parse(request.responseText);
+console.log(preston);
 
-}
+document.getElementById('current').innerHTML=preston.weather[0].description;
+document.getElementById('temp').innerHTML=preston.main.temp;
+document.getElementById('humid').innerHTML=preston.main.humidity;
+document.getElementById('speedy').innerHTML=preston.wind.speed;
+document.getElementById('windy').innerHTML=preston.wind.deg;
 
-function show(jsonObj) {
-var data = jsonObj['towns'];
-  
-for (var i = 0; i < data.length; i++){
- if ( i === 0) {continue;}
- if ( i === 2) {continue;}
- if ( i === 3) {continue;}
- if ( i === 6) {continue;}
-
-var myArticle = document.createElement('div');
-var myH2 = document.createElement('h3');
-var myPara1 = document.createElement('p');
-var myPara2 = document.createElement('p');
-var myPara3 = document.createElement('p');
-var myPara4 = document.createElement('p');
-var myImg = document.createElement('img');
-
-myH2.textContent = data[i].name;
-myPara1.textContent = data[i].motto;
-myPara2.textContent = 'Year Founded:' + data[i].yearFounded;
-myPara3.textContent = 'Population:'+ data[i].currentPopulation;
-myPara4.textContent = 'Average Rain Fall:' + data[i].averageRainfall;
-
-myArticle.appendChild(myH2);
-myArticle.appendChild(myPara1);
-myArticle.appendChild(myPara2);
-myArticle.appendChild(myPara3);
-myArticle.appendChild(myPara4);
-myArticle.appendChild(myImg);
-if (i === 1) myImg.src="images/fishhaven.jpg";
-if (i === 4) myImg.src="images/downtownpreston.jpg";
-if (i === 5) myImg.src="images/geyser.jpg";
-article.appendChild(myArticle);
-}
 }
 
 /*{"coord":
@@ -58,4 +25,10 @@ article.appendChild(myArticle);
 "sys":{"type":1,"id":8166,"message":0.0166,"country":"AU","sunrise":1435610796,"sunset":1435650870},
 "id":2172797,
 "name":"Cairns",
-"cod":200}*/
+"cod":200}
+
+Preston  5604473
+
+Soda Springs 55607916
+
+Fish Haven 5585010 */

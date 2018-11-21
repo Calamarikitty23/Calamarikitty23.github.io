@@ -1,17 +1,72 @@
-function reqListener () {
-    console.log(this.responseText);
-  }
-  
-  var oReq = new XMLHttpRequest();
+let weatherRequest = new XMLHttpRequest();
+let urlAPI =
+"https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=42.1&lon=-111.88&zoom=8";
+weatherRequest.open('Get', urlAPI, true);
+
+weatherRequest.send();
+
+weatherRequest.onload =  function () {
+    let weatherData = JSON.parse
+    (weatherRequest.responseText);
+    console.log(weatherData);
+
+    document.getElementById("weathersummary")
+    .innerHTML =;
+    document.getElementById("weathersummary")
+    .innerHTML =;
+    document.getElementById("weathersummary")
+    .innerHTML =;
+    document.getElementById("weathersummary")
+    .innerHTML =;
+    document.getElementById("weathersummary")
+    .innerHTML =;
+    let imagesrc =
+    "" + [0] +;
+    document.getElementById('').innerHTML = imagesrc;
+}
+/*‹  0¡ôX  city.list.json ¬½Ko$Y– ¸Ÿ_áèZ@Óç¾-³# ¯Ìx±‚Ì eÎê’´ [ÐiÆ2wc C ÐÕÀ` Ec¶jmºõ ¦s
+ FhAhHÚ1s7¢û—Ì9æ‘ Yv*/
+ /* <h3>Weather Summary</h3>
+                <div class="weathersummary">
+                <p class="label">
+                    Currently:
+                    <span class="value">Sunny</span>
+                </p>    
+                <p class="label">
+                    Temperature:
+                    <span class="value">32 F</span>
+                </p>
+                <p class="label">  
+                    Humidity:
+                    <span class="value">81%</span>
+                </p>
+                <p class="label">
+                    Wind Speed:
+                    <span class="value">3 mph</span>
+                </p>
+                <p class="label">
+                    Wind Chill:
+                    <span id="windy"></span>
+                </p> */
+
+   /*var weatherbug = ()*/
+
+
+/*Preston  5604473
+
+Soda Springs 55607916
+
+Fish Haven 5585010*/
+
+/* var oReq = new XMLHttpRequest();
   oReq.addEventListener("load", reqListener);
-  oReq.open("GET", "http://www.example.org/example.txt");
-  oReq.send(); {
-  }  
+  oReq.open("GET", https);
+  oReq.send(); function reqListener () {
+    console.log(this.responseText);
+  }{*/
+
 /*In your weatherapi.js file, create a new instance of the XMLHttpRequest object and assign it to variable named weatherRequest. 
-https://openweathermap.org/find?q=Phoenix%2C+AZ
-weatherapi.js: Create an apiURL string variable that stores the OpenWeatherMap.org API call URL as demonstrated in the documentation - https://openweathermap.org/appid Use weather versus forecast data and make sure to use the https:// protocol and the Preston Idaho City ID given above and your own APPID. In order to get Fahrenheit results, set the units option to imperial.
-weatherapi.js: Call the open method of the weatherRequest XMLHttpRequest object using the Get method, your apiURL string, and set the optional async parameter to true.
-weatherapi.js: Next, send the request using weatherRequest.send();
+
 weatherapi.js: To wait for the request object to load, use the onload method to to encase the JSON parser and output statements in a generic function OR use an addEventListener using the load parameter.
 weatherRequest.onload =  function () {
     let weatherData = JSON.parse(weatherRequest.responseText);
@@ -19,3 +74,4 @@ weatherapi.js: Write the entire parsed JSON output to the console for review and
 weatherapi.js: Write the current temperature to the innerHTML of the current-temp span tag in the HTML body.
 Styling the page is optional.
 Test the page and debug. To test the console output, use the browser Developer Tools (Inspect) tool and click the Console tab. Your page should display a valid current temperature in Fahrenheit (if you set the units to imperial) on both the screen and in the console tab.*/
+/*https://openweathermap.org/find?q=Phoenix%2C+AZ*/
