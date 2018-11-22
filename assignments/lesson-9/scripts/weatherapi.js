@@ -7,32 +7,7 @@
 
     document.getElementById('temp').innerHTML=preston.main.temp;
     }
-/*‹  0¡ôX  city.list.json ¬½Ko$Y– ¸Ÿ_áèZ@Óç¾-³# ¯Ìx±‚Ì eÎê’´ [ÐiÆ2wc C ÐÕÀ` Ec¶jmºõ ¦s
- FhAhHÚ1s7¢û—Ì9æ‘ Yv*/
- /* <h3>Weather Summary</h3>
-                <div class="weathersummary">
-                <p class="label">
-                    Currently:
-                    <span class="value">Sunny</span>
-                </p>    
-                <p class="label">
-                    Temperature:
-                    <span class="value">32 F</span>
-                </p>
-                <p class="label">  
-                    Humidity:
-                    <span class="value">81%</span>
-                </p>
-                <p class="label">
-                    Wind Speed:
-                    <span class="value">3 mph</span>
-                </p>
-                <p class="label">
-                    Wind Chill:
-                    <span id="windy"></span>
-                </p> */
 
-   /*var weatherbug = ()*/
 
 
 /*Preston  5604473
