@@ -69,6 +69,13 @@
         list-style-type:none; 
     }
 
+
+    .hamburger {
+        display:flex;
+        flex-direction:row;
+        list-style-type:none;
+    }
+
     nav li{
         display:inline-block;
         margin:5px;
