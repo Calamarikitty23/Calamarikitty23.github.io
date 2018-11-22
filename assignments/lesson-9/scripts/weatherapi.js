@@ -1,29 +1,12 @@
-let weatherRequest = new XMLHttpRequest();
-let urlAPI =
-"https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=42.1&lon=-111.88&zoom=8";
-weatherRequest.open('Get', urlAPI, true);
+    var request = new XMLHttpRequest();
+    request.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a996fa0bda7d363240d97a43b64c13cc&units=imperial');
+    request.send();
+    request.onload = function() {
+    var preston = JSON.parse(request.responseText);
+    console.log(preston);
 
-weatherRequest.send();
-
-weatherRequest.onload =  function () {
-    let weatherData = JSON.parse
-    (weatherRequest.responseText);
-    console.log(weatherData);
-
-    document.getElementById("weathersummary")
-    .innerHTML =;
-    document.getElementById("weathersummary")
-    .innerHTML =;
-    document.getElementById("weathersummary")
-    .innerHTML =;
-    document.getElementById("weathersummary")
-    .innerHTML =;
-    document.getElementById("weathersummary")
-    .innerHTML =;
-    let imagesrc =
-    "" + [0] + ;
-    document.getElementById('').innerHTML = imagesrc;
-}
+    document.getElementById('temp').innerHTML=preston.main.temp;
+    }
 /*‹  0¡ôX  city.list.json ¬½Ko$Y– ¸Ÿ_áèZ@Óç¾-³# ¯Ìx±‚Ì eÎê’´ [ÐiÆ2wc C ÐÕÀ` Ec¶jmºõ ¦s
  FhAhHÚ1s7¢û—Ì9æ‘ Yv*/
  /* <h3>Weather Summary</h3>
@@ -74,4 +57,3 @@ weatherapi.js: Write the entire parsed JSON output to the console for review and
 weatherapi.js: Write the current temperature to the innerHTML of the current-temp span tag in the HTML body.
 Styling the page is optional.
 Test the page and debug. To test the console output, use the browser Developer Tools (Inspect) tool and click the Console tab. Your page should display a valid current temperature in Fahrenheit (if you set the units to imperial) on both the screen and in the console tab.*/
-/*https://openweathermap.org/find?q=Phoenix%2C+AZ*/

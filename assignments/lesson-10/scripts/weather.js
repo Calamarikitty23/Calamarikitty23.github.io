@@ -11,12 +11,17 @@ document.getElementById('humid').innerHTML=preston.main.humidity;
 document.getElementById('speedy').innerHTML=preston.wind.speed;
 document.getElementById('windy').innerHTML=preston.wind.deg;
 
+var iconcode=preston.weather[0].icon;
+var lightbulb="//openweathermap.org/img/w/" + iconcode + '.png';
+document.getElementById('lightbulb').src=lightbulb;
+
 }
-var request = new XMLHttpRequest();
-request.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a996fa0bda7d363240d97a43b64c13cc&units=imperial');
-request.send();
-request.onload = function() {
-var preston = JSON.parse(request.responseText);
+
+var requester = new XMLHttpRequest();
+requester.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a996fa0bda7d363240d97a43b64c13cc&units=imperial');
+requester.send();
+requester.onload = function() {
+var preston = JSON.parse(requester.responseText);
 console.log(preston);
 
 document.getElementById('monday').innerHTML=preston.list[1].main.temp;
