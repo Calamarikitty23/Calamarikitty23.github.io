@@ -60,20 +60,13 @@
         text-align:center;
     }
 
-    .responsive{display:none;}
+    .responsive{display:flex;}
      nav ul{
         margin:0;
         padding:0px;
         height: 100%;;
         overflow:auto;
         list-style-type:none; 
-    }
-
-
-    .hamburger {
-        display:flex;
-        flex-direction:row;
-        list-style-type:none;
     }
 
     nav li{
