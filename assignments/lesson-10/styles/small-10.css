@@ -165,7 +165,8 @@ nav ul li a:hover {
 }
 
 nav ul.responsive {
-    display: inline;
+    display: flex;
+    flex-direction: row;
 }
 
 /*HERO IMAGE*/
