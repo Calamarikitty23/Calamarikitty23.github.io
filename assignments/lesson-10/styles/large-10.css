@@ -81,7 +81,7 @@
         text-align:center;
      }
 
-     nav button{display:inline;}
+     nav button{display:none;}
 
      nav ul li a{
          padding: .6rem 1rem;
