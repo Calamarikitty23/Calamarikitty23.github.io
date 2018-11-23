@@ -70,10 +70,9 @@
     }
 
     nav li{
-        display:inline-block;
-        margin:5px;
+        margin:auto;
         padding:8px;
-        font-size:14px;
+        font-size:12px;
         font-family:Krub;
         text-decoration:none;
         list-style-type:none; 
