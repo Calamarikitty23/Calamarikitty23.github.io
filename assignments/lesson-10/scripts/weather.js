@@ -6,9 +6,9 @@ var preston = JSON.parse(request.responseText);
 console.log(preston);
 
 document.getElementById('current').innerHTML=preston.weather[0].description;
-document.getElementById('temp').innerHTML=preston.main.temp;
-document.getElementById('humid').innerHTML=preston.main.humidity;
-document.getElementById('speedy').innerHTML=preston.wind.speed;
+document.getElementById('temp').innerHTML=preston.main.temp + "" + "°F";
+document.getElementById('humid').innerHTML=preston.main.humidity + "" + "%";
+document.getElementById('speedy').innerHTML=preston.wind.speed+ "" + "mph";
 document.getElementById('windy').innerHTML=preston.wind.deg;
 
 var iconcode=preston.weather[0].icon;
