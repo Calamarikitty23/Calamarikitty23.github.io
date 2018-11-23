@@ -6,8 +6,8 @@ var preston = JSON.parse(request.responseText);
 console.log(preston);
 
 document.getElementById('current').innerHTML=preston.weather[0].description;
-document.getElementById('temp').innerHTML=preston.main.temp + "" + "°F";
-document.getElementById("temp").innerHTML = Math.round(preston.main.temp);
+document.getElementById('temp').innerHTML=preston.main.temp;
+document.getElementById("temp").innerHTML = Math.round(preston.main.temp) + "" + "°F";
 document.getElementById('humid').innerHTML=preston.main.humidity + "" + "%";
 document.getElementById('speedy').innerHTML=preston.wind.speed+ "" + "mph";
 document.getElementById('windy').innerHTML=preston.wind.deg;
@@ -25,11 +25,16 @@ requester.onload = function() {
 var preston = JSON.parse(requester.responseText);
 console.log(preston);
 
-document.getElementById('monday').innerHTML=preston.list[1].main.temp + "" + "°F";
+document.getElementById('monday').innerHTML=preston.list[1].main.temp;
+document.getElementById("monday").innerHTML = Math.round(preston.list[1].main.temp) + "" + "°F";
 document.getElementById('tuesday').innerHTML=preston.list[2].main.temp+ "" + "°F";
+document.getElementById("tuesday").innerHTML = Math.round(preston.list[2].main.temp) + "" + "°F";
 document.getElementById('wednesday').innerHTML=preston.list[3].main.temp+ "" + "°F";
+document.getElementById("wednesday").innerHTML = Math.round(preston.list[3].main.temp) + "" + "°F";
 document.getElementById('thursday').innerHTML=preston.list[4].main.temp+ "" + "°F";
+document.getElementById("thursday").innerHTML = Math.round(preston.list[4].main.temp) + "" + "°F";
 document.getElementById('friday').innerHTML=preston.list[5].main.temp+ "" + "°F";
+document.getElementById("friday").innerHTML = Math.round(preston.list[5].main.temp) + "" + "°F";
 
 
 }
