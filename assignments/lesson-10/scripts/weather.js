@@ -24,11 +24,11 @@ requester.onload = function() {
 var preston = JSON.parse(requester.responseText);
 console.log(preston);
 
-document.getElementById('monday').innerHTML=preston.list[1].main.temp;
-document.getElementById('tuesday').innerHTML=preston.list[2].main.temp;
-document.getElementById('wednesday').innerHTML=preston.list[3].main.temp;
-document.getElementById('thursday').innerHTML=preston.list[4].main.temp;
-document.getElementById('friday').innerHTML=preston.list[5].main.temp;
+document.getElementById('monday').innerHTML=preston.list[1].main.temp + "" + "°F";
+document.getElementById('tuesday').innerHTML=preston.list[2].main.temp+ "" + "°F";
+document.getElementById('wednesday').innerHTML=preston.list[3].main.temp+ "" + "°F";
+document.getElementById('thursday').innerHTML=preston.list[4].main.temp+ "" + "°F";
+document.getElementById('friday').innerHTML=preston.list[5].main.temp+ "" + "°F";
 
 }
 

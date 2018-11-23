@@ -1,4 +1,4 @@
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:1000px) {
     
 
     body {
@@ -60,7 +60,7 @@
         text-align:center;
     }
 
-    .responsive{display:flex;}
+    .responsive{display:none;}
      nav ul{
         margin:0;
         padding:0px;
@@ -73,7 +73,7 @@
         display:inline-block;
         margin:5px;
         padding:8px;
-        font-size:20px;
+        font-size:14px;
         font-family:Krub;
         text-decoration:none;
         list-style-type:none; 
@@ -81,7 +81,7 @@
         text-align:center;
      }
 
-     nav button{display:none;}
+     nav button{display:inline;}
 
      nav ul li a{
          padding: .6rem 1rem;
