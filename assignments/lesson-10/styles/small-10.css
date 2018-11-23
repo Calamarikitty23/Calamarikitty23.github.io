@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     line-height: 32px;
     font-family: "Krub", "Verdana", sans-serif;
-    background-color: #6ac5f0;
+    background-color: #5cbbe7;
 }
 
 
@@ -110,7 +110,7 @@ form input.submit {
 /*NAVIGATION*/
 button {
     margin: 0.2rem 2%;
-    background-color: #6ac5f0;
+    background-color: #5cbbe7;
     border: none;
     font-size: 35px;
     color: #f4ec4e;
@@ -133,7 +133,7 @@ nav ul {
 }
 
 nav li {
-    border-bottom: 1px solid #6ac5f0;
+    border-bottom: 1px solid #5cbbe7;
     margin: 5px;
     padding: 8px;
     font-size: 20px;
