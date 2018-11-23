@@ -31,10 +31,3 @@ document.getElementById('thursday').innerHTML=preston.list[4].main.temp+ "" + "Â
 document.getElementById('friday').innerHTML=preston.list[5].main.temp+ "" + "Â°F";
 
 }
-
-
-/*Preston  5604473
-
-Soda Springs 55607916
-
-Fish Haven 5585010 */
