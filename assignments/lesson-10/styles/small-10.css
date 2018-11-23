@@ -165,7 +165,7 @@ nav ul li a:hover {
 }
 
 nav ul.responsive {
-    display: none;
+    display: inline;
 }
 
 /*HERO IMAGE*/
