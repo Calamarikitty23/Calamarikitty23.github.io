@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-request.open('GET', 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a996fa0bda7d363240d97a43b64c13cc&units=imperial');
+request.open('GET', 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=a996fa0bda7d363240d97a43b64c13cc&units=imperial');
 request.send();
 request.onload = function() {
 var preston = JSON.parse(request.responseText);
@@ -19,7 +19,7 @@ document.getElementById('lightbulb').src=lightbulb;
 }
 
 var requester = new XMLHttpRequest();
-requester.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a996fa0bda7d363240d97a43b64c13cc&units=imperial');
+requester.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=a996fa0bda7d363240d97a43b64c13cc&units=imperial');
 requester.send();
 requester.onload = function() {
 var preston = JSON.parse(requester.responseText);
