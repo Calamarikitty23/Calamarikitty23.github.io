@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, intital scale=1, maximum-scale=1">
+        <title>COWforecast.com Stormcenter</title>
+        <meta name="author" content="Skye Rallison">
+        <meta name="description" content="This is Skye's Stormcenter">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small-10.css">
+        <link rel="stylesheet" href="styles/medium-10.css">
+        <link rel="stylesheet" href="styles/large-10.css">
+        <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/cowforecastlogo.png" alt="icon" >
+       <div class="title">
+        <h1>COWforecast.com Stormcenter</h1>
+            <h2>Stormcenter Form Page</h2>
+        </div>
+    </header>
+    <nav> 
+        <ul class="hamburger responsive" id="hamburger">
+            <li><a href="index.html">Home</a>
+            </li>|
+            <li><a href="preston.html">Preston</a>
+            </li>|
+            <li><a href="sodasprings.html">Soda Springs</a>
+            </li>|
+            <li><a href="fishhaven.html">Fish Haven</a>
+            </li>|
+            <li><a href="stormcenter.html">Stormcenter</a>
+            </li>|
+            <li><a href="gallery-10.html"> Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Stormcenter Form Page</h1>
+        <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Stormcenter Contact Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Phone<input type="tel" name="phone" placeholder="4326667890"></label>
+            <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label>Website<input type="url" name="url" placeholder="http://wwww"></label>
+            <label>Zipcode<input type="number" name="zipcode" required></label>
+        </fieldset>
+       
+        <fieldset>
+            <legend>Storm Information</legend>
+            <label>Date <input type="date" name="stormdate" value=""></label>
+            <label>Storm Type <input list="storms" name="storm">
+            <datalist id="storms">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+            </datalist>
+            </label>
+            <label>Severity<input type="range" id="rating" name="stormseverity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue"></span></label>
+            <label>Region</label>
+                <select name="stormregion">
+                    <option value="" disabled selected>Select Region</option>
+                    <option value="">Franklin</option>
+                    <option value="">Greenville</option>
+                    <option value="">Springfield</option>
+                    <option value="">Idaho Falls</option>
+                    <option value="">Boise</option>
+                    <option value="">Preston</option>
+                </select>
+            <div style="display:block">Danger Level</div>
+                <label>Yes<input style="height:12px; width:12px;" type="radio" name="answer" value="yes"></label>
+                <label>Maybe<input style="height:12px; width:12px;" type="radio" name="answer" value="maybe"></label>
+                <label>No<input style="height:12px; width:12px;" type="radio" name="answer" value="no"></label>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Additional Information</legend>
+            <textarea rows="13" cols="50">
+
+            </textarea>
+        </fieldset>
+
+    <input type="submit" class="submit" value="Send Weather Report" >
+
+        </form>
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        &copy; 2018 | Skye Rallison | 801-432-6881
+    </footer>
+<script src="scripts/severity.js"></script>
+    </body>
+</html>
+
+
+<!-- var oReq = new XMLHttpRequest();
+  oReq.addEventListener("load", reqListener);
+  oReq.open("GET", https);
+  oReq.send(); function reqListener () {
+    console.log(this.responseText);
+  }{*/ /*Preston  5604473
+
+Soda Springs 55607916
+
+Fish Haven 5585010*/
+
+/*In your weatherapi.js file, create a new instance of the XMLHttpRequest object and assign it to variable named weatherRequest.--> 

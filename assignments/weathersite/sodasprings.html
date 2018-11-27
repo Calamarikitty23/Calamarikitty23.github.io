@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, intital scale=1, maximum-scale=1">
+        <title>Town Weather Page</title>
+        <meta name="author" content="Skye Rallison">
+        <meta name="description" content="This is Skye's Town Weather Page">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small-10.css">
+        <link rel="stylesheet" href="styles/medium-10.css">
+        <link rel="stylesheet" href="styles/large-10.css">
+        <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/cowforecastlogo.png" alt="icon" >
+       <div class="title">
+        <h1>COWforecast.com</h1>
+        <h2>"If you want to know the weather, we provide you with a forecast."
+        </h2>
+        </div>
+        <div class="weather">
+            <img class="sun" id="lightbulb" src="images/sunnyday.png" alt="icon">
+        </div>
+    </header>
+    <nav> 
+        <button onclick="toggleHam()">&#9776;</button>
+        <ul class="hamburger responsive" id="hamburger">
+            <li><a href="#">Forecast</a>
+            </li>
+            <li><a href="#">Preston</a>
+            </li>
+            <li><a href="#">Weather Chart</a>
+            </li>
+            <li><a href="#">Weather Links</a>
+            </li>
+            <li><a href="gallery-10.html">Weather Gallery</a>
+            </li>
+            <li><a href="stormcenter.html">Stormcenter</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <section class="banner">
+            <figure>
+                <img class="hero" src="images/franklinoriginal.jpeg" alt="Here is today's hero."
+                sizes="100vw" srcset="images/franklinoriginal400small.jpeg 400w,
+                                      images/franklinoriginal1200large.jpeg 1200w" >
+            </figure>
+            
+                <div class="weathersummary">
+                <h3>Weather Summary</h3>  
+                <p class="label">
+                    Currently:
+                    <span id="current">Sunny</span>
+                </p>    
+                <p class="label">
+                    Temperature:
+                    <span id="temp">&deg;F</span>
+                </p>
+                <p class="label">  
+                    Humidity:
+                    <span id="humid">%</span>
+                </p>
+                <p class="label">
+                    Wind Speed:
+                    <span id="speedy"> mph</span>
+                </p>
+                <p class="label">
+                    Wind Chill:
+                    <span id="windy"></span>&deg; F
+                </p>
+            </div>
+        </section>
+        <section class="forecast">
+                <h3>Five Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Mon</th>
+                        <th>Tues</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td id='monday'>&deg; F</td>
+                          <td id='tuesday'>&deg; F</td>
+                          <td id='wednesday'>&deg; F</td>
+                          <td id='thursday'>&deg; F</td>
+                          <td id='friday'>&deg; F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        <article>
+        <h3>Article</h3>
+        <h4>by author</h4>
+            <img class="article" src="images/sunset.jpg" alt="Beautiful Sunset" >
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."
+            </p>
+        </article>
+     </main>
+    <footer>
+        <section class="footer-style">
+            <h4>Contact Information</h4>
+            <p>801-432-6881<br>
+            <br  />
+            COWforecast@gmail.com
+            <br  />
+            12345 Main Street
+            <br  />
+            Preston, ID 003256
+            </p>
+            <img class="hills" alt="map location" src="images/idahograssland.jpg">
+            <img class="map" alt="map of Preston Idaho" src="images/preston_map.jpg">
+        </section>
+            <aside class="footer-bar">
+                <p>Copyright 2018 | Skye Rallison
+                </p>
+                <p id="currentdate"></p>
+            </aside>
+    </footer>
+    <script src= "scripts/currentdate.js"></script>
+    <script src= "scripts/hamburger.js"></script>
+    <script src= "scripts/weather.js"></script>
+    </body>
+</html>
