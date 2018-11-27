@@ -10,7 +10,7 @@ document.getElementById('temp').innerHTML=preston.main.temp;
 document.getElementById("temp").innerHTML = Math.round(preston.main.temp) + "" + "°F";
 document.getElementById('humid').innerHTML=preston.main.humidity + "" + "%";
 document.getElementById('speedy').innerHTML=preston.wind.speed+ "" + "mph";
-document.getElementById('windy').innerHTML=preston.wind.deg;
+document.getElementById('windy').innerHTML= Math.round(preston.wind.deg);
 
 var iconcode=preston.weather[0].icon;
 var lightbulb="//openweathermap.org/img/w/" + iconcode + '.png';
