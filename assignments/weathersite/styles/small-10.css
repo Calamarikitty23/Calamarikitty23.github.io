@@ -196,7 +196,7 @@ section.weathersummary {
 }
 
 .weathersummary p {
-    color: black;
+    color: #007db9;
     font-size: 15px;
     margin: 0;
     padding: 0 5px;
@@ -229,7 +229,7 @@ main article h4 {
 }
 
 article p {
-    color: black;
+    color: #007db9;
     font-size: 28px;
     padding: 10px;
 }
