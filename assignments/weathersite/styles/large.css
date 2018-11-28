@@ -5,7 +5,7 @@
         font-size: 16px;
         line-height: 32px;
         font-family: "Krub", "Verdana", sans-serif;
-        background-color:#6ac5f0;
+        background-color:#5cbbe7;
        }
   
     h1 {
@@ -53,7 +53,6 @@
         padding: 20px;
         margin-left: 290px;
         text-align: center;
-        color:#f4ec4e;
     }
     
     section.forecast h3{
