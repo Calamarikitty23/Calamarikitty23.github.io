@@ -13,7 +13,7 @@
   function show(jsonObj) {
     var data = jsonObj['towns'];
       
-  for (var i = 0; i < data.length; i++){
+  for (var i = 0; i < data.length; i++) {
      if ( i === 0) {continue;}
      if ( i === 2) {continue;}
      if ( i === 3) {continue;}
