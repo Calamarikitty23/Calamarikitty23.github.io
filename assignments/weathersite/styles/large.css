@@ -58,6 +58,15 @@
     section.forecast h3{
         font-size:30px;
         text-align:center;
+        color:#ffcc07;
+    }
+
+    section.forecast th{
+        color:#f4ec4e;
+    }
+
+    section.forecast td{
+        color:#f4ec4e;
     }
 
     .responsive{display:none;}

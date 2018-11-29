@@ -213,10 +213,6 @@ section.weathersummary {
     color:#ffcc07;
 }
 
-.weathersummary td{
-    color:#f4ec4e;
-}
-
 /*FORECAST*/
 section.forecast {
     display: none;
