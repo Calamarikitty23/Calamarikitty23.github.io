@@ -189,9 +189,8 @@ nav ul.responsive a:hover {
 
 
 nav ul.responsive a:active{
-    background-color:#6ac5f0; 
-    color: #ffcc07;
-	border-bottom: 2px solid #ffcc07;
+    color: #6ac5f0;
+	border-bottom: 2px solid #6ac5f0;
 
 }
 
