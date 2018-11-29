@@ -196,7 +196,7 @@ section.weathersummary {
 }
 
 .weathersummary p {
-    color: black;
+    color:#ffcc07;
     font-size: 15px;
     margin: 0;
     padding: 0 5px;
@@ -206,6 +206,15 @@ section.weathersummary {
     font-size: 20px;
     margin: 0;
     padding: 0 10px;
+    color:#f4ec4e;
+}
+
+.weathersummary th{
+    color:#ffcc07;
+}
+
+.weathersummary td{
+    color:#f4ec4e;
 }
 
 /*FORECAST*/
