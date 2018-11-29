@@ -229,4 +229,7 @@ article.city{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
 }
+article.city div{
+    max-width:100%;
+}
 }

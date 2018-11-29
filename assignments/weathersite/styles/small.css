@@ -184,6 +184,7 @@ nav ul.responsive a:hover {
 }
 
 nav ul.responsive a:active{
+    background-color:#f4ec4e;
     color: #6ac5f0;
 	border-bottom: 2px solid #6ac5f0;
 
@@ -314,7 +315,7 @@ article.city{
     grid-template-columns: repeat(1, 1fr);
 }
 article.city img{
-    max-width:100%;
+    max-width:400px;
 }
 @media only screen and (max-width:350px){
 
