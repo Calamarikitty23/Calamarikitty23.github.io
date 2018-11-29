@@ -236,15 +236,11 @@ main article h4 {
 
 article p {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px;
     font-family: "Verdana";
 }
-p {
-    font-family: "Verdana";
-    font-size: 20px;
-    color: white;
-}
+
 
 img.article{
     width:100%;
