@@ -25,7 +25,7 @@
             <img class="sun" src="images/sunnyday.png" alt="icon">
         </div>
     </header>
-    <nav> 
+    <nav class="main menu"> 
         <button onclick="toggleHam()">&#9776;</button>
         <ul class="hamburger responsive">
             <li><a href="index.html">Home</a>
@@ -79,6 +79,20 @@
     <script src= "scripts/hamburger.js"></script>
     <script src= "scripts/towndata.js"></script>
     <script>
+        var urlString = document.location.href;
+        var urlArray = urlString[urlArray.length-1];
+
+        if (pageHREF !=="") {
+            var menu = document.querySelectorAll('ul#main menu li a');
+            var i;
+            for (i=0; i<menu.length; i++) {
+                var currentURL=(menu[i].getAttribute("href"));
+                menu[i].parenetNode.className="active";
+                if (currentURL===pageHREF) {
+                    menu[i].parenetNode.className="active";
+                }
+            }
+    }
     </script>
     </body>
 </html>
