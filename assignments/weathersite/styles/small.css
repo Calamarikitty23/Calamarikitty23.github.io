@@ -156,12 +156,9 @@ nav ul li a {
     padding: 1px;
     text-decoration: none;
     color: #007db9;
+    display: flex;
 }
 
-nav ul.responsive {
-    display: none;
-
-}
  nav ul.responsive a{
     padding: 1px;
     text-decoration: none;
@@ -318,4 +315,7 @@ article.city{
 }
 article.city img{
     max-width:100%;
+}
+@media only screen and (max-width:350px){
+
 }
