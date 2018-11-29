@@ -159,8 +159,8 @@ nav ul li a {
 }
 
 nav ul.responsive {
-    display: flex;
-    flex-direction: row;
+    display: none;
+
 }
  nav ul.responsive a{
     padding: 1px;
@@ -185,7 +185,6 @@ nav ul.responsive a:hover {
     color: #f4ec4e;
 	border-bottom: 2px solid #007db9;
 }
-
 
 nav ul.responsive a:active{
     color: #6ac5f0;
