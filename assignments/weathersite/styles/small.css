@@ -182,14 +182,14 @@ nav ul.responsive a:visited{
 }
 
 nav ul.responsive a:hover {
-    background-color:#f4ec4e;
-    color: #ffffff;
-	border-bottom: 2px solid #fff;
+    background-color:#007db9;
+    color: #f4ec4e;
+	border-bottom: 2px solid #007db9;
 }
 
 
 nav ul.responsive a:active{
-    background-color:#ffffff; 
+    background-color:#6ac5f0; 
     color: #ffcc07;
 	border-bottom: 2px solid #ffcc07;
 
