@@ -323,8 +323,5 @@ article.city{
 article.city div img{
     width: 400px;
 }
-@media only screen and (max-width:350px){
-    button{
-        display:contents;
-    }
+
 }
