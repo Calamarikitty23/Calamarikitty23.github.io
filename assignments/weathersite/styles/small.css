@@ -157,6 +157,10 @@ nav ul li a {
     color: #007db9;
 }
 
+.responive {
+    dislay:none;
+}
+
 li.menu{
     display:flex;
     flex-direction: row;
