@@ -1,3 +1,3 @@
 function toggleHam() {
-	document.getElementById("responsive").classList.toggle("responsive");
+	document.getElementById("hamburger").classList.toggle("responsive");
 }
