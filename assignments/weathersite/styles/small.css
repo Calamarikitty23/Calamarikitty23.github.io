@@ -162,12 +162,12 @@ nav ul li a {
     display:none;
 }
 
- nav ul.responsive a{
+ nav ul.active a{
     padding: 1px;
     text-decoration: none;
     color: #007db9;
  }
-nav ul.repsonsive a:link{
+nav ul.active a:link{
 	color: #007db9;
 	text-decoration:none;
 	font-weight:200;
@@ -175,18 +175,18 @@ nav ul.repsonsive a:link{
 	
 	/* other styles */
 }
-nav ul.responsive a:visited{
+nav ul.active a:visited{
 	color: #007db9;
 	/* other styles */
 }
 
-nav ul.responsive a:hover {
+nav ul.active a:hover {
     background-color:#007db9;
     color: #f4ec4e;
 	border-bottom: 2px solid #007db9;
 }
 
-nav ul.responsive a:active{
+nav ul.active a:active{
     background-color:#f4ec4e;
     color: #6ac5f0;
 	border-bottom: 2px solid #6ac5f0;
