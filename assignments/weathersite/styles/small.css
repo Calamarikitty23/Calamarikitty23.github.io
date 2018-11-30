@@ -153,10 +153,13 @@ nav li:first-child {
 }
 
 nav ul li a {
-    padding: 1px;
+    display:contents;
     text-decoration: none;
     color: #007db9;
-    display: flex;
+}
+
+.responsive {
+    display:none;
 }
 
  nav ul.responsive a{
