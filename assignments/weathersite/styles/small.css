@@ -166,12 +166,12 @@ li.menu{
     display:none;
 }
 
- nav ul.hamburger a{
+ nav ul li a{
     padding: 1px;
     text-decoration: none;
     color: #007db9;
  }
-nav ul.hamburger a:link{
+ nav ul li.mainmenu a:link{
 	color: #007db9;
 	text-decoration:none;
 	font-weight:200;
@@ -179,18 +179,18 @@ nav ul.hamburger a:link{
 	
 	/* other styles */
 }
-nav ul.hamburger a:visited{
+nav ul li.mainmenu a:visited{
 	color: #007db9;
 	/* other styles */
 }
 
-nav ul.hamburger a:hover {
+nav ul li.mainmenu a:hover {
     background-color:#007db9;
     color: #f4ec4e;
 	border-bottom: 2px solid #007db9;
 }
 
-nav ul.hamburger a:active{
+nav ul li.mainmenu a:active{
     background-color:#f4ec4e;
     color: #6ac5f0;
 	border-bottom: 2px solid #6ac5f0;
