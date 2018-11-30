@@ -157,9 +157,7 @@ nav ul li a {
     color: #007db9;
 }
 
-.responive {
-    display:none;
-}
+.responsive {display:none;}
 
 li.menu{
     display:flex;
