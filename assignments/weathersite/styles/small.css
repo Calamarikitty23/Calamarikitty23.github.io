@@ -162,7 +162,7 @@ li.menu{
     flex-direction: row;
 }
 
-.hamburger {
+nav#hamburger {
     display:none;
 }
 
@@ -174,7 +174,6 @@ li.menu{
  nav ul li.mainmenu a:link{
 	color: #007db9;
 	text-decoration:none;
-	font-weight:200;
 	letter-spacing:.1em;
 	
 	/* other styles */
