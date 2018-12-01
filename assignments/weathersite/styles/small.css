@@ -130,6 +130,7 @@ nav ul {
     padding: 0px;
     list-style-type: none;
     text-align: center;
+    display:inline-block;
 }
 
 nav li {
