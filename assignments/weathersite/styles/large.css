@@ -78,7 +78,7 @@
         list-style-type:none; 
     }
 
-    nav li{
+    nav li.mainmenu{
         margin:auto;
         padding:8px;
         font-size:20px;
@@ -87,6 +87,7 @@
         list-style-type:none; 
         color:#007db9;
         text-align:center;
+        display:inline;
      }
 
      nav ul li a{
@@ -114,12 +115,12 @@
       padding: .5rem;
       max-width:  100%/* xxxpx (px = pixel is a unit of measure)  */;}
     
-      header{
-       background-color:#007db9;
-       max-width: 100%;
-       font-size:40px;
-       color:#f4ec4e;
-       text-align:center;
+    header{
+    background-color:#007db9;
+    max-width: 100%;
+    font-size:40px;
+    color:#f4ec4e;
+    text-align:center;
       }
 
    main h2{
@@ -167,6 +168,11 @@
        color:white;
        clear:left;
    }
+
+   .responsive{display:inline;}
+
+   button{display:none;}
+
    footer section{
        text-align: center;
        background-color:#007db9;

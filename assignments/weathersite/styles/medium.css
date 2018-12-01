@@ -6,7 +6,7 @@
         display:none;
     }
 
-    ul.hamburger{
+    .responsive{
         display:inline-flex;
         flex-direction:row;
     }
