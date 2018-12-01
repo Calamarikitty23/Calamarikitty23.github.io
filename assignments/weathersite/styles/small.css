@@ -142,15 +142,14 @@ nav li {
     color: #007db9;
     font-weight: bolder;
     text-align: center;
+    display:inline;
 }
 
 nav li:last-child {
     border-bottom: none;
 }
 
-nav li:first-child {
-    margin-top: 0;
-}
+
 nav ul li a {
     display:contents;
     text-decoration: none;
