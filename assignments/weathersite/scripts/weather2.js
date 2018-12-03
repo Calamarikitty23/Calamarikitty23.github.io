@@ -29,10 +29,10 @@ requester.onload = function() {
 var sodasprings = JSON.parse(requester.responseText);
 console.log(sodasprings);
 
-document.getElementById("monday").innerHTML = sodasprings.list[5].main.temp + "" + "°F";
-document.getElementById("tuesday").innerHTML = sodasprings.list[13].main.temp + "" + "°F";
-document.getElementById("wednesday").innerHTML = sodasprings.list[21].main.temp + "" + "°F";
-document.getElementById("thursday").innerHTML = sodasprings.list[29].main.temp + "" + "°F";
-document.getElementById("friday").innerHTML = sodasprings.list[37].main.temp + "" + "°F";
+document.getElementById("monday").innerHTML = Math.round(sodasprings.list[5].main.temp) + "" + "°F";
+document.getElementById("tuesday").innerHTML = Math.round(sodasprings.list[13].main.temp) + "" + "°F";
+document.getElementById("wednesday").innerHTML = Math.round(sodasprings.list[21].main.temp) + "" + "°F";
+document.getElementById("thursday").innerHTML = Math.round(sodasprings.list[29].main.temp) + "" + "°F";
+document.getElementById("friday").innerHTML = Math.round(sodasprings.list[37].main.temp) + "" + "°F";
 
 }

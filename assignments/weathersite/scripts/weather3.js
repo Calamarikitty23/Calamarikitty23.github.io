@@ -29,10 +29,10 @@ requester.onload = function() {
 var fishhaven = JSON.parse(requester.responseText);
 console.log(fishhaven);
 
-document.getElementById("monday").innerHTML = fishhaven.list[5].main.temp + "" + "°F";
-document.getElementById("tuesday").innerHTML = fishhaven.list[13].main.temp + "" + "°F";
-document.getElementById("wednesday").innerHTML = fishhaven.list[21].main.temp + "" + "°F";
-document.getElementById("thursday").innerHTML = fishhaven.list[29].main.temp + "" + "°F";
-document.getElementById("friday").innerHTML = fishhaven.list[37].main.temp + "" + "°F";
+document.getElementById("monday").innerHTML = Math.round(fishhaven.list[5].main.temp) + "" + "°F";
+document.getElementById("tuesday").innerHTML = Math.round(fishhaven.list[13].main.temp) + "" + "°F";
+document.getElementById("wednesday").innerHTML = Math.round(fishhaven.list[21].main.temp) + "" + "°F";
+document.getElementById("thursday").innerHTML = Math.round(fishhaven.list[29].main.temp) + "" + "°F";
+document.getElementById("friday").innerHTML = Math.round(fishhaven.list[37].main.temp) + "" + "°F";
 
 }
