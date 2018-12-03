@@ -20,8 +20,8 @@ document.getElementById('lightbulb').src=lightbulb;
 
 var winds=sodasprings.wind.speed;
 var tempe=sodasprings.main.temp;
-var windChill= 35.74 + 0.6215 * tempe - 35.75 * Math.pow(winds,0.16) + 0.4275 * tempe * Math.pow(winds,0.16);
-document.getElementById("windy").innerHTML= Math.round(windChill);
+var chilly= 35.74 + 0.6215 * tempe - 35.75 * Math.pow(winds,0.16) + 0.4275 * tempe * Math.pow(winds,0.16);
+document.getElementById("windy").innerHTML= Math.round(chilly);
 
 
 var requester = new XMLHttpRequest();

@@ -20,8 +20,8 @@ document.getElementById('lightbulb').src=lightbulb;
 
 var winder= fishhaven.wind.speed;
 var fiery= fishhaven.main.temp;
-var windChill= 35.74 + 0.6215 * fiery - 35.75 * Math.pow(winder,0.16) + 0.4275 * fiery * Math.pow(winder,0.16);
-document.getElementById("windy").innerHTML= Math.round(windChill);
+var frosty= 35.74 + 0.6215 * fiery - 35.75 * Math.pow(winder,0.16) + 0.4275 * fiery * Math.pow(winder,0.16);
+document.getElementById("windy").innerHTML= Math.round(frosty);
 
 var requester = new XMLHttpRequest();
 requester.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=a996fa0bda7d363240d97a43b64c13cc&units=imperial');
