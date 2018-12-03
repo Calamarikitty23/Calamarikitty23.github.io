@@ -1,47 +1,325 @@
+/*SMALL STYLES GO HERE*/
 
 body {
     font-size: 16px;
     line-height: 32px;
     font-family: "Krub", "Verdana", sans-serif;
-   }
-   
-         
-h1 {
-   font-size: 30px /* x.xrem  rem is a unit of measure) */;
-   color: #ffcc07;
-   }
-h2 {
-   font-size: 25px;
-   text-align: left;
-   border-bottom: 1px #f4ec4e;}
-img.hero{
-    max-width: 400px;
+    background-color: #6ac5f0;
 }
- main, footer {
-   margin: 1.25rem auto;
-   padding: .5rem;
-   max-width:  500px/* xxxpx (px = pixel is a unit of measure)  */;}
- footer, footer a {
-   text-align: center;
-   background-color: #6ac5f0;
-   color:	white;}
-header{
-    background-color:#007db9;
-    max-width: 150%;
+
+
+footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 100%;
+    text-align:center;
 }
-header img, h1, h2, div {
+
+
+/*HEADER*/
+
+header {
+    background-color: #007db9;
+    max-width: 100%;
+    font-size: 18px;
+    color: #ffcc07;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    height: 150px;
     display: inline-block;
 }
-    p {
-        font-family:"Verdana";
-        font-size: 16px;
-    }
 
-   header img {
-   width: 179px;
-   height:auto;
-   }
-footer {
-   font-size: 1rem;
+div.title {
+    display: inline-block;
 }
+
+header h1{
+    font-size:40px;
+    color: #ffcc07;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 30px;
+    color: #ffcc07;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 0;
+    padding-bottom: 10px;
+    color:#f4ec4e;
+}
+
+div.weather {
+    display: none;
+}
+
+form legend{
+    color:#f4ec4e;
+    margin:2px;
+    padding:8px;
+    font-size:16px;
+}
+
+form label.top, form div {
+    display:block;
+    padding-top:1rem;
+    color:#f4ec4e;
+    font-size: 1rem;
+}
+
+form label.top, input, form label.top select {
+    display:block;
+    font-size: 12px;
+    border:2px solid #000;
+    border-radius:10px;
+    padding:10px;
+    color:#ffcc07;
+    width:100%;
+    max-width:20rem;
+    background-color:#007db9;
+}
+
+form label.sbs {
+    display:block;
+    padding:7px;
+    color:#6ac5f0;
+}
+
+form input.submit {
+    border:4px solid orange;
+    background-color:#ffcc07;
+    color:#007db9;
+    border-radius:10px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width:96%;
+    max-width:12rem;
+    margin-top:20px;
+}
+
+
+/*NAVIGATION*/
+button {
+    margin: 0.2rem 2%;
+    background-color: #6ac5f0;
+    border: none;
+    font-size: 35px;
+    color: #f4ec4e;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #007db9;
+}
+
+nav#frenchfries {
+    background-color: #ffcc07;
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    display:inline-block;
+}
+
+nav li {
+    margin: 5px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Krub', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: #007db9;
+    font-weight: bolder;
+    text-align: center;
+    display:inline;
+}
+
+nav li:last-child {
+    border-bottom: none;
+}
+
+
+nav ul li a {
+    display:contents;
+    text-decoration: none;
+    color: #007db9;
+}
+
+.responsive {display:none;}
+
+li.menu{
+    display:flex;
+    flex-direction: row;
+}
+
+ nav ul li a{
+    padding: 1px;
+    text-decoration: none;
+    color: #007db9;
+ }
+ nav ul li.mainmenu a:link{
+	color: #007db9;
+	text-decoration:none;
+	letter-spacing:.1em;
+	
+	/* other styles */
+}
+nav ul li.mainmenu a:visited{
+	color: #007db9;
+	/* other styles */
+}
+
+nav ul li.mainmenu a:hover {
+    background-color:#007db9;
+    color: #f4ec4e;
+	border-bottom: 2px solid #007db9;
+}
+
+nav ul li.mainmenu a:active{
+    background-color:#f4ec4e;
+    color: #6ac5f0;
+	border-bottom: 2px solid #6ac5f0;
+
+}
+
+/*HERO IMAGE*/
+main h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    color:#f4ec4e;
+}
+
+figure {
+    margin: 0 0 50px 0;
+}
+
+section.banner {
+    position: relative;
+}
+
+img.hero {
+    max-width: 100%;
+    margin: auto;
+}
+
+section.weathersummary {
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    background-color: #f4ec4e;
+}
+
+.weathersummary p {
+    color:#ffffff;
+    font-size: 15px;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.weathersummary h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0 10px;
+    color:#f4ec4e;
+}
+
+.weathersummary th{
+    color:#ffcc07;
+}
+
+/*FORECAST*/
+section.forecast {
+    display: none;
+}
+
+/*ARTICLE*/
+article{
+    background-color: #ffcc07;
+} 
+main article h3 {
+    padding: 15px 0 0;
+    font-size: 50px;
+    margin: 0 0 0 15px;
+    color: #007db9;
+}
+main article h4 {
+    font-size: 20px;
+    margin: 0 0 5px 15px;
+}
+
+article p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Verdana";
+}
+
+
+img.article{
+    width:100%;
+}
+
+/*FOOTER*/
+footer section {
+    text-align: center;
+    background-color: #007db9;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    color: #ffcc07;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+footer aside {
+    color: #007db9;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer section img {
+    max-width: 100%;
+    margin: auto;
+}
+
+footer section h4 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 15px 0;
+    color: #ffcc07;
+}
+img.map {
+    display: block;
+}
+aside.footer-bar {
+    background-color: #f4ec4e;
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(1,100%); 
+}
+article.city{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+article.city div img{
+    width: 400px;
+}
+
 /*#f4ec4e  #a8dbee	#007db9	#ffcc07	#6ac5f0	*/
