@@ -29,10 +29,10 @@ var preston = JSON.parse(requester.responseText);
 console.log(preston);
 
 document.getElementById("monday").innerHTML = Math.round(preston.list[6].main.temp) + "" + "°F";
-document.getElementById("tuesday").innerHTML = preston.list[14].main.temp + "" + "°F";
-document.getElementById("wednesday").innerHTML = preston.list[22].main.temp + "" + "°F";
-document.getElementById("thursday").innerHTML = preston.list[30].main.temp + "" + "°F";
-document.getElementById("friday").innerHTML = preston.list[38].main.temp + "" + "°F";
+document.getElementById("tuesday").innerHTML = Math.round(preston.list[14].main.temp) + "" + "°F";
+document.getElementById("wednesday").innerHTML = Math.round(preston.list[22].main.temp) + "" + "°F";
+document.getElementById("thursday").innerHTML = Math.round(preston.list[30].main.temp) + "" + "°F";
+document.getElementById("friday").innerHTML = Math.round(preston.list[38].main.temp) + "" + "°F";
 
 
 }
