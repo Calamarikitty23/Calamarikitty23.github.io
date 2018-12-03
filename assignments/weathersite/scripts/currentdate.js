@@ -8,8 +8,21 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 var d= new Date();
-var months = ["January", "February", "March", "April", "May", "June", "July, August", "September", "October", "November","December"];
+var months = new Array(11);
+months[0] ="January"; 
+months[1] ="February";
+months[2] = "March";
+months[3] = "April";
+months[4] =  "May";
+months[5] = "June";
+months[6] = "July";
+months[7] = "August";
+months[8] = "September";
+months[9] = "October";
+months[10] = "November";
+months[11] ="December";
 var w = weekday[d.getDay()];
-document.getElementById("currentdate").innerHTML= w + ","+ " " + d.getDate() + " " + months[d.getMonth(11)] + " "+ d.getFullYear();
+var m = months[d.getMonth()];
+document.getElementById("currentdate").innerHTML= w + ","+ " " + d.getDate() + " " + m + " "+ d.getFullYear();
 
 /*Monday, 6 April 2020*/
