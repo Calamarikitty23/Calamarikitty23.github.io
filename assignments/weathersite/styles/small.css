@@ -183,14 +183,13 @@ nav ul li.mainmenu a:visited{
 
 nav ul li.mainmenu a:hover {
     background-color:#007db9;
-    color: #f4ec4e;
-	border-bottom: 2px solid #007db9;
+    color: #ffcc07;
 }
 
 nav ul li.mainmenu a:active{
-    background-color:#f4ec4e;
-    color: #6ac5f0;
-	border-bottom: 2px solid #6ac5f0;
+    background-color:#6ac5f0;
+    color: #f4ec4e;
+	border-bottom: 2px solid #f4ec4e;
 
 }
 
