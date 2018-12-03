@@ -9,7 +9,8 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 var d= new Date();
 var months = ["January", "February", "March", "April", "May", "June", "July, August", "September", "October", "November","December"];
+var m=months[d.getMonth()];
 var w = weekday[d.getDay()];
-document.getElementById("currentdate").innerHTML= w + ","+ " " + d.getDate() + " " + months[d.getMonth()] + " "+ d.getFullYear();
+document.getElementById("currentdate").innerHTML= w + ","+ " " + d.getDate() + " " + m + " "+ d.getFullYear();
 
 /*Monday, 6 April 2020*/
