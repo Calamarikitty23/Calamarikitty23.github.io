@@ -212,8 +212,8 @@ nav ul li.mainmenu1 a:visited{
 }
 
 nav ul li.mainmenu1 a:hover {
-    background-color:#f55249;
-    color: #c8e3a0;
+    background-color:#006dad;
+    color: #f1be28;
 }
 
 nav ul li.mainmenu1 a:active{
@@ -227,8 +227,8 @@ nav ul li.mainmenu2 a:visited{
 }
 
 nav ul li.mainmenu2 a:hover {
-    background-color:#c8e3a0;
-    color: #f55249;
+    background-color:#ffd059;
+    color: #006dad;
 }
 
 nav ul li.mainmenu2 a:active{
@@ -239,7 +239,7 @@ nav ul li.mainmenu2 a:active{
 
 nav ul li.mainmenu3 a:hover {
     background-color:#6ac5f0;
-    color: #007db9;
+    color: #f1be28;
 }
 
 nav ul li.mainmenu3 a:active{
@@ -252,7 +252,7 @@ nav ul li.mainmenu3 a:visited{
 }
 
 nav ul li.mainmenu4 a:hover {
-    background-color: #f5ecdf;
+    background-color: #ffffff;
     color: #6ac5f0;
 }
 
@@ -277,14 +277,14 @@ nav ul li.mainmenu5 a:active{
 }
 
 nav ul li.mainmenu6 a:hover {
-    background-color:#006dad;
-    color: #f5ecdf;
+    background-color:#ffd978;
+    color: #6ac5f0;
 }
 
 nav ul li.mainmenu6 a:active{
     background-color:#6ac5f0;
-    color: #f4ec4e;
-}
+    color: #ffd059;
+}febf1c
 /*HERO IMAGE*/
 main h2 {
     font-size: 40px;
