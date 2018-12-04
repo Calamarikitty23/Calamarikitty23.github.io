@@ -193,6 +193,98 @@ nav ul li.mainmenu a:active{
 
 }
 
+nav ul li a{
+    padding: 1px;
+    text-decoration: none;
+    color: #007db9;
+ }
+ nav ul li.mainmenu1 a:link{
+	color: #007db9;
+	text-decoration:none;
+	letter-spacing:.1em;
+	
+	/* other styles */
+}
+
+nav ul li.mainmenu1 a:visited{
+	color: #007db9;
+	/* other styles */
+}
+
+nav ul li.mainmenu1 a:hover {
+    background-color:#f55249;
+    color: #c8e3a0;
+}
+
+nav ul li.mainmenu1 a:active{
+    background-color:#6ac5f0;
+    color: #f4ec4e;
+}
+
+nav ul li.mainmenu2 a:visited{
+	color: #007db9;
+	/* other styles */
+}
+
+nav ul li.mainmenu2 a:hover {
+    background-color:#c8e3a0;
+    color: #f55249;
+}
+
+nav ul li.mainmenu2 a:active{
+    background-color:#6ac5f0;
+    color: #f4ec4e;
+	/* other styles */
+}
+
+nav ul li.mainmenu3 a:hover {
+    background-color:#6ac5f0;
+    color: #007db9;
+}
+
+nav ul li.mainmenu3 a:active{
+    background-color:#6ac5f0;
+    color: #f4ec4e;
+}
+nav ul li.mainmenu3 a:visited{
+	color: #007db9;
+	/* other styles */
+}
+
+nav ul li.mainmenu4 a:hover {
+    background-color: #f5ecdf;
+    color: #6ac5f0;
+}
+
+nav ul li.mainmenu4 a:active{
+    background-color:#6ac5f0;
+    color: #f4ec4e;
+}
+
+nav ul li.mainmenu5 a:visited{
+	color: #007db9;
+	/* other styles */
+}
+
+nav ul li.mainmenu5 a:hover {
+    background-color:#f4ec4e;
+    color: #ffcc07;
+}
+
+nav ul li.mainmenu5 a:active{
+    background-color:#6ac5f0;
+    color: #f4ec4e;
+}
+
+nav ul li.mainmenu6 a:hover {
+    background-color:#006dad;
+    color: #f5ecdf;
+}
+
+nav ul li.mainmenu6 a:active{
+    background-color:#6ac5f0;
+    color: #f4ec4e;
+}
 /*HERO IMAGE*/
 main h2 {
     font-size: 40px;
