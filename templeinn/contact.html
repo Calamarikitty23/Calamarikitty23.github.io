@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, intital scale=1, maximum-scale=1">
+        <title> Temple Inn Contact</title>
+        <meta name="author" content="Skye Rallison">
+        <meta name="description" content="This is the Temple Inn and Suites">
+        <link rel="stylesheet" href="styles/templenormalize.css">
+        <link rel="stylesheet" href="styles/templesmall.css">
+        <link rel="stylesheet" href="styles/templemedium.css">
+        <link rel="stylesheet" href="styles/templelarge.css">
+        <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/cowforecastlogo.png" alt="icon" >
+       <div class="title">
+        <h1>COWforecast.com</h1>
+        <h2>"If you want to know the weather, we provide you with a forecast."</h2>
+        </div>
+        <div class="weather">
+            <img class="sun" src="images/sunnyday.png" alt="icon">
+        </div>
+    </header>
+    <nav id="frenchfries"> 
+        <button onclick="toggleHam()">&#9776;</button>
+        <ul id="hamburger">
+            <li class="mainmenu1">Home<a href="templeinn.html"></a></li>
+            <li class="mainmenu">Services<a href="services.html"></a></li>
+            <li class="mainmenu">Reservations<a href="reservation.html"></a></li>
+            <li class="mainmenu">Contact<a href="contact.html"></a></li>
+            <li class="mainmenu">Temples<a href="temple.html"></a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Welcome</h2>
+        <section class="banner">
+            <figure>
+                <img class="hero" src="images/franklinoriginal.jpeg" alt="Here is today's hero."
+                sizes="100vw" srcset="images/franklinoriginal400small.jpeg 400w,
+                                      images/franklinoriginal1200large.jpeg 1200w" >
+            </figure>
+        </section>
+        <article class="city">
+
+        </article>
+     </main>
+    <footer>
+        <section class="footer-style">
+            <h4>Contact Information</h4>
+            <br  />
+            4800 Montgomery Lane #300
+            <br  />
+            Bethesda, MD 20814
+            </p>
+            <img class="hills" alt="map location" src="images/idahograssland.jpg">
+            <img class="map" alt="map of Preston Idaho" src="images/preston_map.jpg">
+        </section>
+            <aside class="footer-bar">
+                <p>Copyright 2018 | Skye Rallison
+                </p>
+                <p id="currentdate"></p>
+            </aside>
+    </footer>
+    <script src= "scripts/currentdate.js"></script>
+    <script src= "scripts/hamburger.js"></script>
+    <script src= "scripts/towndata.js"></script>
+    </body>
+</html>
+<!--The contact page will contain essential contact information including an embedded Google map (Links to an external site.)Links to an external site. 
+    showing the company headquarter address at 4800 Montgomery Ln #300, Bethesda, MD 20814 and a basic contact us form. This page could contain company descriptive information as given in this document.-->
