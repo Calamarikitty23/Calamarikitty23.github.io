@@ -148,7 +148,7 @@ form label.top, input, form label.top select {
     color:#ffffff;
     width:100%;
     max-width:20rem;
-    background-color:#;
+    background-color:#cae2bc;
 }
 
 form label.sbs {
@@ -159,8 +159,8 @@ form label.sbs {
 
 form input.submit {
     border:4px solid ;
-    background-color:#;
-    color:#;
+    background-color:#87a878;
+    color:#cae2bc;
     border-radius:10px;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
@@ -183,7 +183,7 @@ button {
 }
 
 nav#frenchfries {
-    background-color: #;
+    background-color: #dbf9b8;
     font-family: 'Verdana', sans-serif;
     font-size: 14px;
 }
@@ -203,7 +203,7 @@ nav li {
     font-family: 'Krub', sans-serif;
     text-decoration: none;
     list-style-type: none;
-    color: #;
+    color: #87a878;
     font-weight: bolder;
     text-align: center;
     display:inline;
@@ -354,7 +354,7 @@ main h2 {
     font-size: 40px;
     text-align: center;
     padding: 15px;
-    color:#;
+    color:#b0bc98;
 }
 
 figure {
@@ -374,11 +374,11 @@ section.weathersummary {
     position: absolute;
     top: 70px;
     left: 25px;
-    background-color: #;
+    background-color: #87a878;
 }
 
 .weathersummary p {
-    color:#;
+    color:#cae2bc;
     font-size: 15px;
     margin: 0;
     padding: 0 5px;
@@ -392,7 +392,7 @@ section.weathersummary {
 }
 
 .weathersummary th{
-    color:#;
+    color:#b0bc98;
 }
 
 /*FORECAST*/
@@ -402,13 +402,13 @@ section.forecast {
 
 /*ARTICLE*/
 article{
-    background-color: #;
+    background-color: #87a878;
 } 
 main article h3 {
     padding: 15px 0 0;
     font-size: 50px;
     margin: 0 0 0 15px;
-    color: #;
+    color: #dbf9b8;
 }
 main article h4 {
     font-size: 20px;
@@ -442,7 +442,7 @@ footer p {
 }
 
 footer aside {
-    color: #;
+    color: #87a878;
     margin: 0px;
     padding: 20px;
     text-align: center;

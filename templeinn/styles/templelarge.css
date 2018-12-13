@@ -10,11 +10,10 @@
   
     h1 {
         font-size: 60px /* x.xrem  rem is a unit of measure) */;
-        color: #;
+        color: #87a878;
        }
     h2 {
        font-size: 15px;
-       border-bottom: 1px #;
     }
     img.hero{
         max-width:100%;
@@ -48,7 +47,7 @@
         font-size:20px;
     }
 
-    section.forecast{
+   /* section.forecast{
         display:contents;
         font-size: 25px;
         padding: 20px;
@@ -63,12 +62,12 @@
     }
 
     section.forecast th{
-        color:#;
+        color:#87a878;
     }
 
     section.forecast td{
-        color:#;
-    }
+        color:#87a878;
+    }*/
 
 
      nav ul{
@@ -79,7 +78,7 @@
         list-style-type:none; 
     }
 
-    nav li.mainmenu{
+    /*nav li.mainmenu{
         margin:auto;
         padding:8px;
         font-size:20px;
@@ -89,7 +88,7 @@
         color:#;
         text-align:center;
         display:inline;
-     }
+     }*/
 
      nav ul li a{
          padding: .6rem 1rem;
@@ -104,7 +103,7 @@
     section div{
         position:absolute;
         top:-20px;
-        background-color:#;
+        background-color:#dbf9b8;
     }
    
    section.forecast{
@@ -117,7 +116,7 @@
       max-width:  100%/* xxxpx (px = pixel is a unit of measure)  */;}
     
     header{
-    background-color:#;
+    background-color:#dbf9b8;
     max-width: 100%;
     font-size:40px;
     color:#f4ec4e;
@@ -138,7 +137,6 @@
    main div{
        margin:6px 6px;
        padding:10px;
-       border:2px solid #;
    }
    
    main div h4{
@@ -148,7 +146,7 @@
    main article h3{
        font-size:40px;
        margin-left:10px;
-       color: #;
+       color: #dbf9b8;
    }
    
    main article h4{
@@ -166,7 +164,7 @@
    p {
        font-family:"Verdana";
        font-size: 20px;
-       color:;
+       color:#c7ccb9;
        clear:left;
    }
 
@@ -176,30 +174,29 @@
 
    footer section{
        text-align: center;
-       background-color:#;
+       background-color:#c7ccb9;
        padding:10px;
        clear:right;
    }
    
    footer p{
        font-size:30px;
-       color:#;
+       color:#c7ccb9;
        text-align:right;
        clear:left;
    }
    
    footer aside{
-       color:#;
+       color:#dbf9b8;
        margin:0px;
        padding:20px;
    }
    
    footer aside p{
-       background-color: #;
+       background-color: #87a878;
        color:#ffcc07;
        text-align:center;
        padding:40px;
-       
    }
 
    footer section img{
@@ -212,23 +209,23 @@
    footer section h4{
        text-align:right;
        font-size:30px;
-       color:#;
+       color:#fff;
        clear:left;
    }
    .grid{
     grid-template-columns:repeat(3, 32%);
 } 
  .grid figure:hover{
-    box-shadow: 2px 5px #;
+    box-shadow: 2px 5px #fff;
  }
 figcaption{
     font-size:14px;
-    color:#;
+    color:#c7ccb9;
 }
 
-figure img{
+/*figure img{
     border:2px solid #;
-}
+}*/
 article.city{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
