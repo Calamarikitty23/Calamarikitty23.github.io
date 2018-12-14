@@ -37,50 +37,28 @@
             </ul>
         </nav>
         </nav>
-        <h1>Stormcenter Form Page</h1>
+        <h1>Temple Inn Reservation</h1>
         <form method="get" action="thanks.html">
         <fieldset>
-            <legend>Stormcenter Contact Information</legend>
-            <label>First Name*<input type="text" name="fname" required></label>
-            <label>Last Name*<input type="text" name="lname" required></label>
+            <legend>Reservation Information</legend>
+            <label>Date <input type="date" name="reservationdate" value=""></label>
+            <label>Full Name<input type="text" name="fullname" required></label>
+            <label>Email<input type="email" name="email" placeholder="someone@gmail.com" required></label>
             <label>Phone<input type="tel" name="phone" placeholder="4326667890"></label>
-            <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label>Website<input type="url" name="url" placeholder="http://wwww"></label>
-            <label>Zipcode<input type="number" name="zipcode" required></label>
-        </fieldset>
-       
-        <fieldset>
-            <legend>Storm Information</legend>
-            <label>Date <input type="date" name="stormdate" value=""></label>
-            <label>Storm Type <input list="storms" name="storm">
-            <datalist id="storms">
-                <option value="Flash Flood"></option>
-                <option value="Hail"></option>
-                <option value="Hurricane"></option>
-                <option value="Thunderstorm"></option>
-            </datalist>
-            </label>
-            <label>Severity<input type="range" id="rating" name="stormseverity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue"></span></label>
-            <label>Region</label>
-                <select name="stormregion">
-                    <option value="" disabled selected>Select Region</option>
-                    <option value="">Franklin</option>
-                    <option value="">Greenville</option>
-                    <option value="">Springfield</option>
-                    <option value="">Idaho Falls</option>
-                    <option value="">Boise</option>
-                    <option value="">Preston</option>
-                </select>
+            <label>Home State or Country<input type="text" name="home" required></label>
         </fieldset>
     
         <fieldset>
-            <legend>Additional Information</legend>
+            <legend>Special Accomdations/Comments</legend>
             <textarea rows="13" cols="50">
     
             </textarea>
         </fieldset>
-    
-    <input type="submit" class="submit" value="Send Weather Report" >
+<!--The reservation page contains a form that collects relevant information when making a normal stay reservation 
+    including the location, date, number and type of rooms, registrant's full name, email, phone, home state or country,
+     and special accommodations/comments.
+-->    
+    <input type="submit" class="submit" value="Make a Reservation" >
     
         </form>
     </main>
