@@ -80,6 +80,7 @@ header h1{
     font-size:40px;
     color: #87a878;
     margin-bottom: 0;
+    font-family:"Open Sans",serif;
 }
 
 h1 {
@@ -174,7 +175,7 @@ nav li {
     margin: 5px;
     padding: 8px;
     font-size: 20px;
-    font-family: 'Krub', sans-serif;
+    font-family: 'Monsterrat', sans-serif;
     text-decoration: none;
     list-style-type: none;
     color: #87a878;
@@ -313,15 +314,6 @@ nav ul li.mainmenu5 a:active{
     color: #f4ec4e;
 }
 
-nav ul li.mainmenu6 a:hover {
-    background-color:#ffd978;
-    color: #6ac5f0;
-}
-
-nav ul li.mainmenu6 a:active{
-    background-color:#6ac5f0;
-    color: #ffd059;
-}
 
 /*HERO IMAGE*/
 main h2 {

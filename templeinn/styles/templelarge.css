@@ -4,7 +4,7 @@
     body {
         font-size: 16px;
         line-height: 32px;
-        font-family: "Open Sans", "Monsterrat", sans-serif, serif;
+        font-family: 'Monsterrat', sans-serif;
         background-color:#87a878;
        }
   
@@ -119,7 +119,6 @@
     background-color:#dbf9b8;
     max-width: 100%;
     font-size:40px;
-    color:#f4ec4e;
     text-align:center;
       }
 
@@ -162,7 +161,7 @@
     }
    
    p {
-       font-family:"Verdana";
+       font-family:"Open Sans";
        font-size: 20px;
        color:#c7ccb9;
        clear:left;
@@ -181,8 +180,6 @@
    
    footer p{
        font-size:30px;
-       color:#c7ccb9;
-       text-align:right;
        clear:left;
    }
    
@@ -207,7 +204,7 @@
    
    footer section h4{
        font-size:30px;
-       color:#fff;
+       color:#87a878;
        clear:left;
    }
    .grid{

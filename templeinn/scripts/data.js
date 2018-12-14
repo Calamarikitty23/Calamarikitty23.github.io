@@ -39,9 +39,9 @@
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
     myArticle.appendChild(myImg);
-    if (i === 1) myImg.src="images/fishhaven.jpg";
-    if (i === 4) myImg.src="images/downtownpreston.jpg";
-    if (i === 5) myImg.src="images/geyser.jpg";
+    if (i === 1) myImg.src="images/";
+    if (i === 4) myImg.src="images/";
+    if (i === 5) myImg.src="images/";
     article.appendChild(myArticle);
   }
 }
