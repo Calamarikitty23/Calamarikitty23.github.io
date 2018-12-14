@@ -6,11 +6,13 @@
         line-height: 32px;
         font-family: 'Monsterrat', sans-serif;
         background-color:#87a878;
+        color:#cae2bc;
        }
   
     h1 {
         font-size: 60px /* x.xrem  rem is a unit of measure) */;
-        color: #87a878;
+        color: #dbf9b8;
+        text-align: center;
        }
     h2 {
        font-size: 15px;
