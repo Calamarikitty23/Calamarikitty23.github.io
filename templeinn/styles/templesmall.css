@@ -66,7 +66,7 @@ Open Sans
 body {
     font-size: 16px;
     line-height: 32px;
-    font-family: "Open Sans", "Monsterrat", sans-serif, serif;
+    font-family: "Open Sans", 'Monsterrat', sans-serif, serif;
     background-color: #dbf9b8;
 }
 
@@ -82,7 +82,7 @@ footer {
 /*HEADER*/
 
 header {
-    background-color: #b0bc98;
+    background-color: #dbf9b8;
     max-width: 100%;
     font-size: 18px;
     color: #87a878;
@@ -183,7 +183,7 @@ button {
 }
 
 nav#frenchfries {
-    background-color: #dbf9b8;
+    background-color: #b0bc98;
     font-family: 'Verdana', sans-serif;
     font-size: 14px;
 }
@@ -420,6 +420,11 @@ article p {
     font-size: 20px;
     padding: 10px;
     font-family: "Verdana";
+}
+
+figure img.templo{
+    width: 304px; 
+    height:228px;
 }
 
 

@@ -29,26 +29,61 @@
     <nav id="frenchfries"> 
         <button onclick="toggleHam()">&#9776;</button>
         <ul id="hamburger">
-            <li class="mainmenu1">Home<a href="templeinn.html"></a></li>
-            <li class="mainmenu">Services<a href="services.html"></a></li>
-            <li class="mainmenu">Reservations<a href="reservation.html"></a></li>
-            <li class="mainmenu">Contact<a href="contact.html"></a></li>
-            <li class="mainmenu">Temples<a href="temple.html"></a></li>
+            <li class="mainmenu1"><a href="index.html">Home</a></li>
+            <li class="mainmenu"><a href="services.html">Services</a></li>
+            <li class="mainmenu"><a href="reservation.html">Reservations</a></li>
+            <li class="mainmenu"><a href="contact.html">Contact</a></li>
+            <li class="mainmenu"><a href="temple.html">Temples</a></li>
         </ul>
     </nav>
-    <main>
-        <h2>Welcome</h2>
-        <section class="banner">
-            <figure>
-                <img class="hero" src="images/franklinoriginal.jpeg" alt="Here is today's hero."
-                sizes="100vw" srcset="images/franklinoriginal400small.jpeg 400w,
-                                      images/franklinoriginal1200large.jpeg 1200w" >
-            </figure>
-        </section>
-        <article class="city">
+    </nav>
+    <h1>Stormcenter Form Page</h1>
+    <form method="get" action="thanks.html">
+    <fieldset>
+        <legend>Stormcenter Contact Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Phone<input type="tel" name="phone" placeholder="4326667890"></label>
+        <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+        <label>Website<input type="url" name="url" placeholder="http://wwww"></label>
+        <label>Zipcode<input type="number" name="zipcode" required></label>
+    </fieldset>
+   
+    <fieldset>
+        <legend>Storm Information</legend>
+        <label>Date <input type="date" name="stormdate" value=""></label>
+        <label>Storm Type <input list="storms" name="storm">
+        <datalist id="storms">
+            <option value="Flash Flood"></option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="Thunderstorm"></option>
+        </datalist>
+        </label>
+        <label>Severity<input type="range" id="rating" name="stormseverity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue"></span></label>
+        <label>Region</label>
+            <select name="stormregion">
+                <option value="" disabled selected>Select Region</option>
+                <option value="">Franklin</option>
+                <option value="">Greenville</option>
+                <option value="">Springfield</option>
+                <option value="">Idaho Falls</option>
+                <option value="">Boise</option>
+                <option value="">Preston</option>
+            </select>
+    </fieldset>
 
-        </article>
-     </main>
+    <fieldset>
+        <legend>Additional Information</legend>
+        <textarea rows="13" cols="50">
+
+        </textarea>
+    </fieldset>
+
+<input type="submit" class="submit" value="Send Weather Report" >
+
+    </form>
+</main>
     <footer>
         <section class="footer-style">
             <h4>Contact Information</h4>
@@ -57,8 +92,7 @@
             <br  />
             Bethesda, MD 20814
             </p>
-            <img class="hills" alt="map location" src="images/idahograssland.jpg">
-            <img class="map" alt="map of Preston Idaho" src="images/preston_map.jpg">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701322!2d-77.09772048468812!3d38.98325177955756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1544722897673" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </section>
             <aside class="footer-bar">
                 <p>Copyright 2018 | Skye Rallison
