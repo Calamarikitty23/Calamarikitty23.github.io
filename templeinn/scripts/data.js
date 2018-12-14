@@ -5,8 +5,8 @@
     request.responseType = 'json';
     request.send();
     request.onload = function() {
-    var idaho= request.response;
-    show(idaho);
+    var temple= request.response;
+    show(temple);
     
 }
 
