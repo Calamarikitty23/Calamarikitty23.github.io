@@ -3,7 +3,7 @@
         grid-template-columns: repeat(2,50%);
     }
     button{
-        display:inline-block;
+        display:none;
     }
 
     .responsive{
@@ -16,7 +16,7 @@
         flex-direction: row;
     }
     figcaption{
-        color:#ffcc07;
+        color:#dbf9b8;
     }
 
     article.city div img{

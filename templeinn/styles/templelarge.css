@@ -49,7 +49,7 @@
         font-size:20px;
     }
 
-   /* section.forecast{
+    section.forecast{
         display:contents;
         font-size: 25px;
         padding: 20px;
@@ -60,7 +60,7 @@
     section.forecast h3{
         font-size:30px;
         text-align:center;
-        color:#;
+        color:#dbf9b8;
     }
 
     section.forecast th{
@@ -69,7 +69,7 @@
 
     section.forecast td{
         color:#87a878;
-    }*/
+    }
 
 
      nav ul{
@@ -80,22 +80,24 @@
         list-style-type:none; 
     }
 
-    /*nav li.mainmenu{
+    nav li.mainmenu{
         margin:auto;
         padding:8px;
         font-size:20px;
-        font-family:Krub;
+        font-family:'Monsterrat', sans-serif;
         text-decoration:none;
         list-style-type:none; 
-        color:#;
+        color:#dbf9b8;
         text-align:center;
         display:inline;
-     }*/
-
-     nav ul li a{
-         padding: .6rem 1rem;
-         border:none;
      }
+    
+    a.reserve {
+        text-align: center;
+        font-size: 40px;
+        color: #dbf9b8;
+    }
+    
 
      section{
         text-align:left;
@@ -111,7 +113,12 @@
    section.forecast{
        display:inline-block;
    }
-   
+   nav ul li a{
+    padding: .6rem 1rem;
+    border:none;
+
+   }
+
     main, footer {
       margin: 1.25rem auto;
       padding: .5rem;
@@ -168,7 +175,12 @@
        color:#c7ccb9;
        clear:left;
    }
-
+  section div{
+        position:absolute;
+        top:-20px;
+        background-color:#b0ba98;
+    }
+    
    .responsive{display:inline;}
 
    button{display:none;}
