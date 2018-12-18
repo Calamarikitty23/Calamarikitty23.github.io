@@ -1,5 +1,5 @@
  var article = document.querySelector('article');
-    var requestURL = 'https://www.lds.org/temples/list?lang=eng/lds.json';
+    var requestURL = 'https://www.lds.org/temples/list?lang=eng/';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
