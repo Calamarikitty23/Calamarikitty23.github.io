@@ -1,5 +1,5 @@
-/* var article = document.querySelector('article');
-    var requestURL = 'https://www.lds.org/temples/list?lang=eng/data.json';
+ var article = document.querySelector('article');
+    var requestURL = 'https://www.lds.org/temples/list?lang=eng/lds.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
@@ -29,7 +29,6 @@
     var myPara6 = document.createElement('p');
     var myPara7 = document.createElement('p');
     var myPara8 = document.createElement('p');
-    var myPara9 = document.createElement('p');
     var myImg = document.createElement('img');
 
     myH2.textContent = data[i].name;
@@ -41,7 +40,7 @@
     myPara6.textContent = 'Ordinance Schedule:'+ data[i].ordinanceSchedule;
     myPara7.textContent = 'Session Schedule:'+ data[i].sessionSchedule;
     myPara8.textContent = 'Temple Closure Schedule:'+ data[i].templeclosureSchedule;
-    myPara9.textContent = 'Current Conditions Weather:'+ data[i].currentConditions;
+  
 
     myArticle.appendChild(myH2);
     myArticle.appendChild(myPara1);
@@ -52,14 +51,13 @@
     myArticle.appendChild(myPara6);
     myArticle.appendChild(myPara7);
     myArticle.appendChild(myPara8);
-    myArticle.appendChild(myPara9);
     myArticle.appendChild(myImg);
     if (i === 1) myImg.src="images/";
     if (i === 4) myImg.src="images/";
     if (i === 5) myImg.src="images/";
     article.appendChild(myArticle);
   }
-  }*/
+  }
 var article = document.querySelector('article');
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();

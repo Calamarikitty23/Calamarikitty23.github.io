@@ -107,34 +107,32 @@ form legend{
     font-size:16px;
 }
 
+form fieldset label{
+    color:#b0ba98;
+}
+
 form label.top, form div {
     display:block;
     padding-top:1rem;
-    color:#f4ec4e;
+    color:#cae2bc;
     font-size: 1rem;
 }
 
 form label.top, input, form label.top select {
     display:block;
     font-size: 12px;
-    border:2px solid #dbf9b8;
+    border:2px solid #87a878;
     border-radius:10px;
     padding:10px;
-    color:#ffffff;
+    color:#87a878;
     width:100%;
     max-width:20rem;
     background-color:#cae2bc;
 }
 
-form label.sbs {
-    display:block;
-    padding:7px;
-    color:#6ac5f0;
-}
-
 form input.submit {
     border:4px solid #c7ccb9;
-    background-color:#dbf9b8;
+    background-color:#87a878;
     color:#b0bc98;
     border-radius:10px;
     padding: .75rem 1.5rem;
@@ -220,8 +218,8 @@ nav ul li.mainmenu a:visited{
 }
 
 nav ul li.mainmenu a:hover {
-    background-color:#007db9;
-    color: #ffcc07;
+    background-color:#87a878;
+    color: #dbf9b8;
 }
 
 nav ul li.mainmenu a:active{
@@ -245,8 +243,8 @@ nav ul li.mainmenu1 a:visited{
 }
 
 nav ul li.mainmenu1 a:hover {
-    background-color:#79a9d7;
-    color: #f1be28;
+    background-color:#1e1e38;
+    color: #fbb466;
 }
 
 nav ul li.mainmenu1 a:active{
@@ -259,25 +257,25 @@ nav ul li.mainmenu2 a:visited{
 	/* other styles */
 }
 
-nav ul li.mainmenu2 a:hover {
-    background-color:#d87033;
-    color: #006dad;
+nav ul li.mainmenu2 a:hover{
+    background-color:#dbf9b8;
+    color: #87a878;
 }
 
 nav ul li.mainmenu2 a:active{
     background-color:#87a878;
-    color: #cae2bc;
+    color: #dbf9b8;
 	/* other styles */
 }
 
-nav ul li.mainmenu3 a:hover {
-    background-color:#f4ec4e;
-    color: #6ac5f0;
+nav ul li.mainmenu3 a:hover{
+    background-color:#b0bc98;
+    color: #dbf9b8;
 }
 
 nav ul li.mainmenu3 a:active{
     background-color:#87a878;
-    color: #cae2bc;
+    color: #dbf9b8;
 }
 nav ul li.mainmenu3 a:visited{
 	color: #c7ccb9;
@@ -285,8 +283,8 @@ nav ul li.mainmenu3 a:visited{
 }
 
 nav ul li.mainmenu4 a:hover {
-    background-color: #ffffff;
-    color: #6ac5f0;
+    background-color:#87a878;
+    color: #dbf9b8;
 }
 
 nav ul li.mainmenu4 a:active{
@@ -300,8 +298,8 @@ nav ul li.mainmenu5 a:visited{
 }
 
 nav ul li.mainmenu5 a:hover {
-    background-color:#f4ec4e;
-    color: #ffcc07;
+    background-color:#87a878;
+    color: #dbf9b8;
 }
 
 nav ul li.mainmenu5 a:active{
@@ -336,35 +334,35 @@ img.hero {
     margin: auto;
 }
 
-section.weathersummary {
+section.templesummary {
     position: absolute;
     top: 70px;
     left: 25px;
     background-color: #87a878;
 }
 
-.weathersummary p {
+.templesummary p {
     color:#cae2bc;
     font-size: 15px;
     margin: 0;
     padding: 0 5px;
 }
 
-.weathersummary h3 {
+.templesummary h3 {
     font-size: 20px;
     margin: 0;
     padding: 0 10px;
     color:#dbf9b8;
 }
 
-.weathersummary th{
+.templesummary th{
     color:#b0bc98;
 }
 
 section div{
     position:absolute;
     top:-20px;
-    background-color:#007db9;
+    background-color:#b0ba98;
 }
 /*FORECAST*/
 section.forecast {
