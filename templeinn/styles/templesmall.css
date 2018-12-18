@@ -206,7 +206,6 @@ nav ul li a{
     
  }
 nav ul li.mainmenu a:link{
-	color: #dbf9b8;
 	text-decoration:none;
 	letter-spacing:.1em;
 	
@@ -238,7 +237,7 @@ nav ul li.mainmenu1 a:link{
 }
 
 nav ul li.mainmenu1 a:visited{
-	color: #c7ccb9;
+	color: #dbf9b8;
 	/* other styles */
 }
 
@@ -253,7 +252,7 @@ nav ul li.mainmenu1 a:active{
 }
 
 nav ul li.mainmenu2 a:visited{
-	color: #c7ccb9;
+	color: #dbf9b8;
 	/* other styles */
 }
 
@@ -274,11 +273,12 @@ nav ul li.mainmenu3 a:hover{
 }
 
 nav ul li.mainmenu3 a:active{
-    background-color:#87a878;
-    color: #dbf9b8;
+    background-color:#c7ccb9;
+    color: #87a878;
 }
+
 nav ul li.mainmenu3 a:visited{
-	color: #c7ccb9;
+	color: #dbf9b8;
 	/* other styles */
 }
 
@@ -292,8 +292,12 @@ nav ul li.mainmenu4 a:active{
     color: #cae2bc;
 }
 
+nav ul li.mainmenu4 a:visited{
+    color:#dbf9b8;
+}
+
 nav ul li.mainmenu5 a:visited{
-	color: #c7ccb9;
+	color: #dbf9b8;
 	/* other styles */
 }
 
@@ -305,6 +309,10 @@ nav ul li.mainmenu5 a:hover {
 nav ul li.mainmenu5 a:active{
     background-color:#87a878;
     color: #cae2bc;
+}
+
+nav ul li.mainmenu5 a:visited{
+    color:#dbf9b8;
 }
 
 a.reserve{
