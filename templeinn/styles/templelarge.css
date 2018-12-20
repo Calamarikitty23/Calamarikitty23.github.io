@@ -17,7 +17,7 @@
     h2 {
        font-size: 15px;
     }
-    img.hero{
+    img.tempo{
         max-width:100%;
         margin: 10px 0px;
     }
@@ -26,50 +26,10 @@
         display:inline-block;
     }
 
-    div.forecast{
-        display:inline-block;
-    }
-    
     header img {
         width: 160px;
         height:auto;
         }
-    
-    div.weather{
-        display:inline-block;
-    }
-
-    img.sun {
-        width:160px;
-        
-    }
-
-    div.weather h3{
-        text-align:right;
-        font-size:20px;
-    }
-
-    section.forecast{
-        display:contents;
-        font-size: 25px;
-        padding: 20px;
-        margin-left: 290px;
-        text-align: center;
-    }
-    
-    section.forecast h3{
-        font-size:30px;
-        text-align:center;
-        color:#dbf9b8;
-    }
-
-    section.forecast th{
-        color:#87a878;
-    }
-
-    section.forecast td{
-        color:#87a878;
-    }
 
     form input.submit {
         border:4px solid #c7ccb9;
@@ -146,12 +106,14 @@
        font-size: 40px;
        text-align: center;
        padding:15px;
+       font-family:'Monsterrat',sans-serif;
    }
    
    main h3{
        font-size:80px;
        text-align:center;
        color:#dbf9b8;
+       font-family:'Monsterrat',sans-serif;
    }
    
    main div{
