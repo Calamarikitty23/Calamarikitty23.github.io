@@ -1,46 +1,9 @@
 /*SMALL STYLES GO HERE*/
-/* 
 
-Site header	
-Open Sans	
-40px	
-#dbf9b8
-
-Primary Navigation	
-Montserrat	
-30px	
-#b0bc98	
-
-Footer Navigation	
-Open Sans	
-20px	
-#cae2bc	
-
-Heading 1 (h1)	
-Montserrat 	
-30px	
-#87a878	
-
-Heading 2 (h2)	
-Montserrat 	
-25px	
-#b0bc98	
-
-Heading 3(h3)	
-Montserrat 	
-20px	
-#dbf9b8	
-
-Paragraph text (p)	
-Open Sans
-14px	
-#c7ccb9	
-
-     */
 body {
     font-size: 16px;
     line-height: 32px;
-    font-family: "Open Sans",sans-serif, 'Monsterrat', serif;
+    font-family: 'Monsterrat','Roboto', sans-serif;
     background-color: #dbf9b8;
 }
 
@@ -60,6 +23,7 @@ header {
     max-width: 100%;
     font-size: 18px;
     color: #87a878;
+    font-family:'Roboto', sans-serif;
 }
 
 header {
@@ -80,13 +44,15 @@ header h1{
     font-size:40px;
     color: #87a878;
     margin-bottom: 0;
-    font-family:"Open Sans",serif;
+    font-family:'Monsterrat',sans-serif;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: #87a878;
     margin-bottom: 0;
+    font-family:'Monsterrat',sans-serif;
+    text-align:center;
 }
 
 h2 {
@@ -94,6 +60,7 @@ h2 {
     margin: 0;
     padding-bottom: 10px;
     color:#b0bc98;
+    font-family:'Monsterrat',sans-serif;
 }
 
 div.weather {
@@ -132,7 +99,7 @@ form label.top, input, form label.top select {
 
 form input.submit {
     border:4px solid #c7ccb9;
-    background-color:#dbf9b8;
+    background-color:#87a878;
     color:#b0bc98;
     border-radius:10px;
     padding: .75rem 1.5rem;
@@ -142,7 +109,44 @@ form input.submit {
     margin-top:20px;
 }
 
+/* 
 
+Site header	
+Open Sans	
+40px	
+#dbf9b8
+
+Primary Navigation	
+Montserrat	
+30px	
+#b0bc98	
+
+Footer Navigation	
+Open Sans	
+20px	
+#cae2bc	
+
+Heading 1 (h1)	
+Montserrat 	
+30px	
+#87a878	
+
+Heading 2 (h2)	
+Montserrat 	
+25px	
+#b0bc98	
+
+Heading 3(h3)	
+Montserrat 	
+20px	
+#dbf9b8	
+
+Paragraph text (p)	
+Open Sans
+14px	
+#c7ccb9	
+
+     */
 /*NAVIGATION*/
 button {
     margin: 0.2rem 2%;
@@ -157,7 +161,7 @@ button {
 
 nav#frenchfries {
     background-color: #b0bc98;
-    font-family: "Open Sans", serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -268,13 +272,13 @@ nav ul li.mainmenu2 a:active{
 }
 
 nav ul li.mainmenu3 a:hover{
-    background-color:#b0bc98;
-    color: #dbf9b8;
+    background-color:#c7ccb9;
+    color: #87a878;
 }
 
 nav ul li.mainmenu3 a:active{
-    background-color:#c7ccb9;
-    color: #87a878;
+    background-color:#87a878;
+    color: #dbf9b8;
 }
 
 nav ul li.mainmenu3 a:visited{
@@ -314,7 +318,7 @@ nav ul li.mainmenu5 a:visited{
 
 a.reserve{
     text-align:center;
-    font-size:20px;
+    font-size:40px;
     color:#b0bc98;
 }
 
@@ -324,6 +328,7 @@ main h2 {
     text-align: center;
     padding: 15px;
     color:#dbf9b8;
+    font-family:'Monsterrat',sans-serif;
 }
 
 figure {
@@ -351,6 +356,7 @@ section.templesummary {
     font-size: 15px;
     margin: 0;
     padding: 0 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .templesummary h3 {
@@ -358,6 +364,7 @@ section.templesummary {
     margin: 0;
     padding: 0 10px;
     color:#dbf9b8;
+    font-family: 'Monsterrat', sans-serif;
 }
 
 .templesummary th{
@@ -384,17 +391,19 @@ main article h3 {
     margin: 0 0 0 15px;
     color: #dbf9b8;
     text-align: center;
+    font-family: 'Monsterrat', sans-serif;
 }
 main article h4 {
     font-size: 20px;
     margin: 0 0 5px 15px;
+    font-family: 'Monsterrat', sans-serif;
 }
 
 article p {
     color: #c7ccb9;
     font-size: 20px;
     padding: 10px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 figure img.templo{
@@ -419,6 +428,7 @@ footer p {
     color: #b0bc98;
     margin: 0;
     padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer aside {
@@ -442,6 +452,7 @@ footer section h4 {
     font-size: 25px;
     margin: 0 0 15px 0;
     color: #87a878;
+    font-family: 'Monsterrat', sans-serif;
 }
 img.map {
     display: block;

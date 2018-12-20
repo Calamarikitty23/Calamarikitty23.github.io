@@ -34,12 +34,25 @@
         max-width:20rem;
         background-color:#cae2bc;
     }
+
+    header img{
+        width:160px;
+    }
+    main h3{
+        color:#87a878;
+        font-size:50px;
+        text-align:center;
+    }
+    .templesummary h3{
+        text-align:left;
+    }
+
     nav ul li a{
         display:inline-flex;
         flex-direction: row;
     }
     figcaption{
-        color:#dbf9b8;
+        color:#87a878;
     }
 
     article.city div img{

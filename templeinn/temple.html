@@ -11,16 +11,14 @@
         <link rel="stylesheet" href="styles/templemedium.css">
         <link rel="stylesheet" href="styles/templelarge.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <body>
     <header>
         <img src="images/templeinnicon.png" alt="icon" >
                 <h1>Temple Inn and Suites</h1>
                 <h2>Where to Relax, Rejuvenate, and Prepare for Temples</h2>
-                
-                <div class="weather">
-                    <img class="sun" id="lightbulb" src="images/" alt="icon">
-                </div>
+
     </header>
     <nav id="frenchfries">
         <button onclick="toggleHam()">&#9776;</button>
@@ -32,77 +30,46 @@
             <li class="mainmenu5"><a href="temple.html">Temples</a></li>
         </ul>
     </nav>
-    <div class="weathersummary">
-        <h3>Weather Summary</h3>  
-        <p class="label">
-            Currently:
-            <span id="current">Sunny</span>
-        </p>
-        <p class="label">
-            Temperature:
-            <span id="temp">&deg;F</span>
-        </p>
-    </div>   
             <br>
         <article class="city">
 
         </article>
-    <footer>
-            <aside class="footer-bar">
-                <p>Copyright 2018 | Skye Rallison
-                </p>
-                <p id="currentdate"></p>
-            </aside>
-    </footer>
-    <script src= "scripts/currentdate.js"></script>
-    <script src= "scripts/data.js"></script>
-    <script src= "scripts/weather.js"></script>
-    <script></script>
-    <script></script>
-    <script></script>
-    </body>
-</html>
-<!-- The temple page describes the details for at least four temples providing information about the address, 
-     telephone, email, services, history, ordinance schedule, session schedule, temple closure schedule, 
-     and current conditions weather information obtained from a third party API.
-     
-     <figure>
-
+        <div class="grid">
             <figure>
 
                 <img class="templo" src="images/albuquerque-lds-temple.jpg" alt="Albaquerque temple">
             
                 <br>
             
-                <figcaption>Albuquerque New Mexico Temple
-                            Address:10301 San Francisco Rd NE 
-                            Albuquerque NM 87122-3437<br>
+                <figcaption>Albuquerque New Mexico Temple<br>
+                            Address:10301 San Francisco Rd NE Albuquerque NM 87122-3437<br>
                             Telephone: (1) 505-822-5110<br>
+                            Email:Log in to send email to temple 
+                            Services:Baptism,Initiatory, Endowment, and Sealing 
+                            History: April 4, 1997-Announced<br>
+                                     June 20, 1998-Groundbreaking<br>
+                                     March 5, 2000-Dedicated<br>
+                            Ordinance and Session Schedule:Saturday, January 5, 2019
+                                    6:30 AM,
+                                    8:00 AM,
+                                    10:00 AM,
+                                    12:00 PM,
+                                    2:00 PM,
+                                    4:00 PM,
+                                    6:00 PM 
+                            Temple closure schedule:
+                            Tuesday, December 25, 2018 - Wednesday, December 26, 2018
+                            Tuesday,January 1, 2019,
+                            Saturday, April 6, 2019,
+                            Monday, April 8, 2019 - Monday, April 22, 2019,
+                            Thursday, July 4, 2019,
+                            Tuesday, October 1, 2019 - Monday, November 4, 2019,
+                            Wednesday, November 27, 2019 (Limited Hours),
+                            Thursday, November 28, 2019,
+                            Tuesday, December 24, 2019 - Thursday, December 26, 2019,
+                            Tuesday, December 31, 2019 (Limited Hours)"
                 </figcaption>
-                Email
-Log in to send email to temple
-            Endowment Schedule
-Saturday, January 5, 2019
-6:30 AM
-8:00 AM
-10:00 AM
-12:00 PM
-2:00 PM
-4:00 PM
-6:00 PM
-2018
-Closure Schedule
-Tuesday, December 25, 2018 - Wednesday, December 26, 2018
-2019
-Tuesday, January 1, 2019
-Saturday, April 6, 2019
-Monday, April 8, 2019 - Monday, April 22, 2019
-Thursday, July 4, 2019
-Tuesday, October 1, 2019 - Monday, November 4, 2019
-Wednesday, November 27, 2019 (Limited Hours)
-Thursday, November 28, 2019
-Tuesday, December 24, 2019 - Thursday, December 26, 2019
-Tuesday, December 31, 2019 (Limited Hours)
+            
             </figure>
             
             
@@ -113,15 +80,14 @@ Tuesday, December 31, 2019 (Limited Hours)
                 <br>
             
                         <figcaption>Boston Massachusetts Temple<br>
-                            Address:100 Hinckley Wy
-                            Belmont MA 02478-2135<br>
+                            100 Hinckley Wy Belmont MA 02478-2135<br>
                             Telephone: (1) 617-993-9993<br>
                         </figcaption>            
             </figure>
             
             <figure>
             
-                <img class="templo"src="images/idahofallstemple.jpg" alt="Cloudy day in a pine forest" >
+                <img class="templo" src="images/idahofallstemple.jpg" alt="Cloudy day in a pine forest" >
             
                 <br>
             
@@ -170,95 +136,80 @@ Tuesday, December 31, 2019 (Limited Hours)
                             Telephone:(1) 520-395-3900<br>
                 </figcaption>
             </figure>
-            {
-  "towns" : [
-  {
-    "name": "Franklin",
-    "motto": "Where you will grow!",
-    "yearFounded": 1788,
-    "currentPopulation": 30458,
-    "averageRainfall": 21,
-    "events" : [
-      "March 4: March to the Drum of Donuts",
-      "September 5 - 11: Founder Days",
-      "December 1 - 26: Christmas in the Heart"
-    ]
-  },
-  {
-    "name": "Fish Haven",
-    "motto": "This is Fish Heaven.",
-    "yearFounded": 1864,
-    "currentPopulation": 501,
-    "averageRainfall": 14.20,
-    "events" : [
-      "April 1: How Big Was That Fish Day",
-      "May 15-30: Rush the Creek Days",
-      "July 24: Bear Lake Blunder Run",
-      "December 12: Light the Tree"
-    ]
-  },
-  {
-    "name": "Greenville",
-    "motto": "Green is our way of life.",
-    "yearFounded": 1805,
-    "currentPopulation": 33458,
-    "averageRainfall": 25,
-    "events" : [
-      "February 10-12: Greenbration",
-      "May 8 - 18: Greenville Founder Days",
-      "June 20: Verde and Valiant Day",
-      "November 15-16: Greensome Gathering"
-    ]
-  },
-  {
-    "name": "Placerton",
-    "motto": "Positive Placement in Placerton.",
-    "yearFounded": 1946,
-    "currentPopulation": 512,
-    "averageRainfall": 39,
-    "events" : [
-      "July 4: A Blaze of Glory",
-      "October 20: Fall through Fall"
-    ]
-  },
-  {
-    "name": "Preston",
-    "motto": "Home of Napoleon Dynamite",
-    "yearFounded": 1866,
-    "currentPopulation": 5204,
-    "averageRainfall": 16.65,
-    "events" : [
-      "March 29: Work Creek Revival",
-      "July 8-12: Napoleon Dynamite Festival",
-      "November 2-4: Freedom Days"
-    ]
-  },
-  {
-    "name": "Soda Springs",
-    "motto": "Historic Oregon Trail Oasis. The Soda is on Us",
-    "yearFounded": 1858,
-    "currentPopulation": 2985,
-    "averageRainfall": 15.75,
-    "events" : [
-      "February 29: Geyser Song Day",
-      "May 1-6: Days of May Celebration",
-      "October 15-16: Octoberfest"
-    ]
-  },
-  {
-    "name": "Springfield",
-    "motto": "Where everyone is lifted.",
-    "yearFounded": 1826,
-    "currentPopulation": 17852,
-    "averageRainfall": 17,
-    "events" : [
-      "January 8: Spring into Winter",
-      "April 10-20: Celebration of Life",
-      "July 31-Aug 15: Dog Days of Summer Festival"
-    ]
-  }
- ]
+        </div> 
+    <footer>
+
+    </footer>
+    
+    <script src= "scripts/weather.js"></script>
+    <script>
+   var article = document.querySelector('article');
+    var requestJSON = 'temple.json';
+    var request = new XMLHttpRequest();
+    request.open('GET', request);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+    var temple= request.response;
+    show(temple);
+    
 }
-            
-            
-            ->
+
+  function show(jsonObj) {
+    var data = jsonObj['temples'];
+      
+  for (var i = 0; i < data.length; i++) {
+     if ( i === 0) {continue;}
+     if ( i === 2) {continue;}
+     if ( i === 3) {continue;}
+     if ( i === 6) {continue;}
+
+    var myArticle = document.createElement('div');
+    var myH2 = document.createElement('h3');
+    var myPara1 = document.createElement('p');
+    var myPara2 = document.createElement('p');
+    var myPara3 = document.createElement('p');
+    var myPara4 = document.createElement('p');
+    var myPara5 = document.createElement('p');
+    var myPara6 = document.createElement('p');
+    var myPara7 = document.createElement('p');
+    var myPara8 = document.createElement('p');
+    var myPara9 = document.createElement('p');
+    var myImg = document.createElement('img');
+
+    myH2.textContent = data[i].name;
+    myPara1.textContent = 'Address:' + data[i].address;
+    myPara2.textContent = 'Telephone:' + data[i].telephoe;
+    myPara3.textContent = 'Email:'+ data[i].email;
+    myPara4.textContent = 'Services:' + data[i].services;
+    myPara5.textContent = 'History:' + data[i].history;
+    myPara6.textContent = 'Ordinance and Session Schedule:'+ data[i].ordinanceSchedule;
+    myPara8.textContent = 'Temple Closure Schedule:'+ data[i].templeclosureSchedule;
+    myPara9.textContent = 'Current Conditions Weather:'+ data[i].currentConditions;
+
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myPara1);
+    myArticle.appendChild(myPara2);
+    myArticle.appendChild(myPara3);
+    myArticle.appendChild(myPara4);
+    myArticle.appendChild(myPara5);
+    myArticle.appendChild(myPara6);
+    myArticle.appendChild(myPara7);
+    myArticle.appendChild(myPara8);
+    myArticle.appendChild(myPara9);
+    myArticle.appendChild(myImg);
+    if (i === 1) myImg.src="images/";
+    if (i === 4) myImg.src="images/";
+    if (i === 5) myImg.src="images/";
+    article.appendChild(myArticle);
+  }
+  }
+    </script>
+    </body>
+</html>
+<!-- The temple page describes the details for at least four temples providing information about the address, 
+     telephone, email, services, history, ordinance schedule, session schedule, temple closure schedule, 
+     and current conditions weather information obtained from a third party API. 
+     }
+   ]
+  }-->

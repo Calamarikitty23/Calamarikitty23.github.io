@@ -71,8 +71,19 @@
         color:#87a878;
     }
 
+    form input.submit {
+        border:4px solid #c7ccb9;
+        background-color:#dbf9b8;
+        color:#b0bc98;
+        border-radius:10px;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width:96%;
+        max-width:12rem;
+        margin-top:20px;
+    }
 
-     nav ul{
+    nav ul{
         margin:0;
         padding:0px;
         /*! height: 100%; */;
@@ -226,7 +237,7 @@
     grid-template-columns:repeat(3, 32%);
 } 
  .grid figure:hover{
-    box-shadow: 2px 5px #fff;
+    box-shadow: 3px 5px #c7ccb9;
  }
 figcaption{
     font-size:14px;

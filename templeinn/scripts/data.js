@@ -1,7 +1,7 @@
-/* var article = document.querySelector('article');
-    var requestURL = 'https://www.lds.org/temples/list?lang=eng/lds.json';
+ var article = document.querySelector('article');
+    var requestJSON = 'temple.json';
     var request = new XMLHttpRequest();
-    request.open('GET', requestURL);
+    request.open('GET', request);
     request.responseType = 'json';
     request.send();
     request.onload = function() {
@@ -39,7 +39,6 @@
     myPara4.textContent = 'Services:' + data[i].services;
     myPara5.textContent = 'History:' + data[i].history;
     myPara6.textContent = 'Ordinance Schedule:'+ data[i].ordinanceSchedule;
-    myPara7.textContent = 'Session Schedule:'+ data[i].sessionSchedule;
     myPara8.textContent = 'Temple Closure Schedule:'+ data[i].templeclosureSchedule;
     myPara9.textContent = 'Current Conditions Weather:'+ data[i].currentConditions;
 
@@ -59,7 +58,7 @@
     if (i === 5) myImg.src="images/";
     article.appendChild(myArticle);
   }
-  }*/
+  }
 var article = document.querySelector('article');
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
