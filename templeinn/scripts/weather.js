@@ -5,11 +5,6 @@ request.onload = function() {
 var meridian = JSON.parse(request.responseText);
 console.log(meridian);
 
-document.getElementById('current').innerHTML=meridian.weather[0].description;
 document.getElementById('temp').innerHTML=meridian.main.temp;
 document.getElementById("temp").innerHTML = Math.round(meridian.main.temp) + "" + "°F";
-
-var iconcode=sodasprings.weather[0].icon;
-var lightbulb="//openweathermap.org/img/w/" + iconcode + '.png';
-document.getElementById('lightbulb').src=lightbulb;
 }

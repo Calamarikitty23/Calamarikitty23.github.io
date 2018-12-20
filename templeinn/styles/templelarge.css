@@ -237,7 +237,7 @@
     grid-template-columns:repeat(3, 32%);
 } 
  .grid figure:hover{
-    box-shadow: 3px 5px #c7ccb9;
+    box-shadow: 3px 5px #fff;
  }
 figcaption{
     font-size:14px;

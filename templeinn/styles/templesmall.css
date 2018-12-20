@@ -241,7 +241,7 @@ nav ul li.mainmenu1 a:link{
 }
 
 nav ul li.mainmenu1 a:visited{
-	color: #dbf9b8;
+	color: #c7ccb9;
 	/* other styles */
 }
 
@@ -256,7 +256,7 @@ nav ul li.mainmenu1 a:active{
 }
 
 nav ul li.mainmenu2 a:visited{
-	color: #dbf9b8;
+	color: #c7ccb9;
 	/* other styles */
 }
 
@@ -272,7 +272,6 @@ nav ul li.mainmenu2 a:active{
 }
 
 nav ul li.mainmenu3 a:hover{
-    background-color:#c7ccb9;
     color: #87a878;
 }
 
@@ -282,26 +281,36 @@ nav ul li.mainmenu3 a:active{
 }
 
 nav ul li.mainmenu3 a:visited{
-	color: #dbf9b8;
+	color: #c7ccb9;
 	/* other styles */
 }
 
 nav ul li.mainmenu4 a:hover {
-    background-color:#87a878;
-    color: #dbf9b8;
+    background-color: #cae2bc; ;
+    color: #87a878 ;
 }
 
 nav ul li.mainmenu4 a:active{
     background-color:#87a878;
-    color: #cae2bc;
+    color: #dbf9b8;
 }
 
 nav ul li.mainmenu4 a:visited{
-    color:#dbf9b8;
+    color:#c7ccb9;
+}
+nav ul li.mainmenu5 a:hover {
+    background-color: #cae2bc;
+    color: #87a878 ;
 }
 
+nav ul li.mainmenu5 a:active{
+    background-color:#87a878;
+    color: #dbf9b8;
+}
+nav ul li.mainmenu4 a:visited{
+    color:#c7ccb9;
 	/* other styles */
-
+}
 nav ul li.mainmenu5 a:hover {
     background-color:#87a878;
     color: #dbf9b8;
